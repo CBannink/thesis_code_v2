@@ -1,0 +1,19 @@
+{"time":"2025-06-17T20:39:47.196614213+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/caspar/thesis_code/wandb/run-20250617_203947-optuna_hpo_trial_49/logs/debug-core.log"}
+{"time":"2025-06-17T20:39:47.454766572+02:00","level":"INFO","msg":"created new stream","id":"optuna_hpo_trial_49"}
+{"time":"2025-06-17T20:39:47.454803536+02:00","level":"INFO","msg":"stream: started","id":"optuna_hpo_trial_49"}
+{"time":"2025-06-17T20:39:47.454834081+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"optuna_hpo_trial_49"}
+{"time":"2025-06-17T20:39:47.454866268+02:00","level":"INFO","msg":"sender: started","stream_id":"optuna_hpo_trial_49"}
+{"time":"2025-06-17T20:39:47.454886069+02:00","level":"INFO","msg":"handler: started","stream_id":"optuna_hpo_trial_49"}
+{"time":"2025-06-17T20:39:47.91175382+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-17T20:40:11.213082932+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-06-17T20:40:11.217879434+02:00","level":"ERROR","msg":"tensorboard: file is not under TB root","rootDir":"/home/caspar/thesis_code","path":"/home/caspar/celloracle_data/optuna_hpo_logs2/trial_49/PPO_0/events.out.tfevents.1750185601.binfgpu9.bio.uu.nl.90978.49"}
+{"time":"2025-06-17T22:13:03.475916266+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/caspar-christiaan-utrecht-university/celloracle/optuna_hpo_trial_49/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-06-18T01:55:33.674609028+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-18T01:55:33.675951589+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-18T01:55:34.677961636+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.673869738,"progress":"1.5MB/1.6MB"},{"desc":"uploading config.yaml","runtime_seconds":0.456411624,"progress":"3.0KB/3.0KB"}],"total_operations":2}}
+{"time":"2025-06-18T01:55:35.150250114+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-18T01:55:35.452196648+02:00","level":"INFO","msg":"stream: closing","id":"optuna_hpo_trial_49"}
+{"time":"2025-06-18T01:55:35.452225283+02:00","level":"INFO","msg":"handler: closed","stream_id":"optuna_hpo_trial_49"}
+{"time":"2025-06-18T01:55:35.452238137+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"optuna_hpo_trial_49"}
+{"time":"2025-06-18T01:55:35.452246638+02:00","level":"INFO","msg":"sender: closed","stream_id":"optuna_hpo_trial_49"}
+{"time":"2025-06-18T01:55:35.455579193+02:00","level":"INFO","msg":"stream: closed","id":"optuna_hpo_trial_49"}

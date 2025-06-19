@@ -1,0 +1,1353 @@
+2025-01-20 14:23:03,478 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:23:03,481 - INFO - Converting raw count data to csv file
+2025-01-20 14:23:03,482 - INFO - Index(['raw obs columns: QC_peter', 'raw obs columns: barcode_nla',
+       'raw obs columns: barcode_vasa', 'raw obs columns: batch_day_rep',
+       'raw obs columns: bc_idx', 'raw obs columns: coverage',
+       'raw obs columns: day', 'raw obs columns: day_rep',
+       'raw obs columns: enrichment', 'raw obs columns: exp_batch',
+       'raw obs columns: mark', 'raw obs columns: obs_names',
+       'raw obs columns: plate_batch', 'raw obs columns: plate_grp',
+       'raw obs columns: rep', 'raw obs columns: sample',
+       'raw obs columns: seqrun'],
+      dtype='object')
+2025-01-20 14:25:17,163 - WARNING - Matplotlib is building the font cache; this may take a moment.
+2025-01-20 14:25:21,303 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:25:21,304 - INFO - Converting raw count data to csv file
+2025-01-20 14:25:21,305 - INFO - Index(['raw obs columns: QC_peter', 'raw obs columns: barcode_nla',
+       'raw obs columns: barcode_vasa', 'raw obs columns: batch_day_rep',
+       'raw obs columns: bc_idx', 'raw obs columns: coverage',
+       'raw obs columns: day', 'raw obs columns: day_rep',
+       'raw obs columns: enrichment', 'raw obs columns: exp_batch',
+       'raw obs columns: mark', 'raw obs columns: obs_names',
+       'raw obs columns: plate_batch', 'raw obs columns: plate_grp',
+       'raw obs columns: rep', 'raw obs columns: sample',
+       'raw obs columns: seqrun'],
+      dtype='object')
+2025-01-20 14:25:26,724 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:25:26,725 - INFO - Converting raw count data to csv file
+2025-01-20 14:25:26,726 - INFO - Index(['raw obs columns: QC_peter', 'raw obs columns: barcode_nla',
+       'raw obs columns: barcode_vasa', 'raw obs columns: batch_day_rep',
+       'raw obs columns: bc_idx', 'raw obs columns: coverage',
+       'raw obs columns: day', 'raw obs columns: day_rep',
+       'raw obs columns: enrichment', 'raw obs columns: exp_batch',
+       'raw obs columns: mark', 'raw obs columns: obs_names',
+       'raw obs columns: plate_batch', 'raw obs columns: plate_grp',
+       'raw obs columns: rep', 'raw obs columns: sample',
+       'raw obs columns: seqrun'],
+      dtype='object')
+2025-01-20 14:25:37,120 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:25:37,121 - INFO - Converting raw count data to csv file
+2025-01-20 14:25:37,122 - INFO - Index(['raw obs columns: QC_peter', 'raw obs columns: barcode_nla',
+       'raw obs columns: barcode_vasa', 'raw obs columns: batch_day_rep',
+       'raw obs columns: bc_idx', 'raw obs columns: coverage',
+       'raw obs columns: day', 'raw obs columns: day_rep',
+       'raw obs columns: enrichment', 'raw obs columns: exp_batch',
+       'raw obs columns: mark', 'raw obs columns: obs_names',
+       'raw obs columns: plate_batch', 'raw obs columns: plate_grp',
+       'raw obs columns: rep', 'raw obs columns: sample',
+       'raw obs columns: seqrun'],
+      dtype='object')
+2025-01-20 14:26:01,962 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:26:01,962 - INFO - Converting raw count data to csv file
+2025-01-20 14:26:01,963 - INFO - Index(['raw obs columns: QC_peter', 'raw obs columns: barcode_nla',
+       'raw obs columns: barcode_vasa', 'raw obs columns: batch_day_rep',
+       'raw obs columns: bc_idx', 'raw obs columns: coverage',
+       'raw obs columns: day', 'raw obs columns: day_rep',
+       'raw obs columns: enrichment', 'raw obs columns: exp_batch',
+       'raw obs columns: mark', 'raw obs columns: obs_names',
+       'raw obs columns: plate_batch', 'raw obs columns: plate_grp',
+       'raw obs columns: rep', 'raw obs columns: sample',
+       'raw obs columns: seqrun'],
+      dtype='object')
+2025-01-20 14:26:10,152 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:26:10,152 - INFO - Converting raw count data to csv file
+2025-01-20 14:26:10,153 - INFO - Index(['raw obs columns: QC_peter', 'raw obs columns: barcode_nla',
+       'raw obs columns: barcode_vasa', 'raw obs columns: batch_day_rep',
+       'raw obs columns: bc_idx', 'raw obs columns: coverage',
+       'raw obs columns: day', 'raw obs columns: day_rep',
+       'raw obs columns: enrichment', 'raw obs columns: exp_batch',
+       'raw obs columns: mark', 'raw obs columns: obs_names',
+       'raw obs columns: plate_batch', 'raw obs columns: plate_grp',
+       'raw obs columns: rep', 'raw obs columns: sample',
+       'raw obs columns: seqrun'],
+      dtype='object')
+2025-01-20 14:26:12,500 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:26:12,501 - INFO - Converting raw count data to csv file
+2025-01-20 14:26:12,502 - INFO - Index(['raw obs columns: QC_peter', 'raw obs columns: barcode_nla',
+       'raw obs columns: barcode_vasa', 'raw obs columns: batch_day_rep',
+       'raw obs columns: bc_idx', 'raw obs columns: coverage',
+       'raw obs columns: day', 'raw obs columns: day_rep',
+       'raw obs columns: enrichment', 'raw obs columns: exp_batch',
+       'raw obs columns: mark', 'raw obs columns: obs_names',
+       'raw obs columns: plate_batch', 'raw obs columns: plate_grp',
+       'raw obs columns: rep', 'raw obs columns: sample',
+       'raw obs columns: seqrun'],
+      dtype='object')
+2025-01-20 14:26:47,289 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:26:47,289 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:26:47,289 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 14:34:55,361 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:34:55,364 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:34:55,364 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 14:34:55,364 - INFO - adding raw count data to normalized data
+2025-01-20 14:34:55,855 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:34:55,856 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts'
+2025-01-20 14:36:23,355 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:36:23,356 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:36:23,357 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts'
+2025-01-20 14:36:23,357 - INFO - adding raw count data to normalized data
+2025-01-20 14:36:44,399 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:36:44,400 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:36:44,400 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts', 'raw_counts_unspliced'
+2025-01-20 14:36:44,400 - INFO - adding raw count data to normalized data
+2025-01-20 14:36:45,147 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:36:45,147 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 14:38:27,777 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 14:38:27,779 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:38:27,780 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 14:38:27,780 - INFO - adding raw count data to normalized data
+2025-01-20 14:38:28,526 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 14:38:28,526 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:12:32,820 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:12:32,822 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:12:32,822 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 15:12:32,823 - INFO - adding raw count data to normalized data
+2025-01-20 15:12:33,567 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:12:33,567 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:16:56,251 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:16:56,252 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:16:56,253 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 15:16:56,253 - INFO - adding raw count data to normalized data
+2025-01-20 15:16:56,984 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:16:56,984 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:16:57,087 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:18:32,360 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:18:32,362 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:18:32,362 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 15:18:32,362 - INFO - adding raw count data to normalized data
+2025-01-20 15:18:33,103 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:18:33,103 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:18:33,103 - INFO - adding umap data to normalized data
+2025-01-20 15:18:33,103 - INFO -                                                                   index  \
+Cell_ID                                                                   
+Gastd5-rep2-H3K27me3-1:AACCTGCT  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG    PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184   
+...                                                                 ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224   
+Gastd7-rep3-H3K4me3-6:TGACCAAG    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199   
+Gastd7-rep3-H3K4me3-6:TGTACCAA     PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA     PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45   
+
+                                    day replicates      mark  \
+Cell_ID                                                        
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  Gastd5       rep2  H3K27me3   
+...                                 ...        ...       ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TGACCAAG   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TGTACCAA   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA   Gastd7       rep3   H3K4me3   
+
+                                               celltype    celltype_general  \
+Cell_ID                                                                       
+Gastd5-rep2-H3K27me3-1:AACCTGCT             Endothelium          Haemogenic   
+Gastd5-rep2-H3K27me3-1:AATGGTGG      Neural Progenitors  Neural Progenitors   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                    NMPs                NMPs   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG                    NMPs                NMPs   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                    NMPs                NMPs   
+...                                                 ...                 ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT      Early Motor Neurons       Motor Neurons   
+Gastd7-rep3-H3K4me3-6:TGACCAAG       Late Motor Neurons       Motor Neurons   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG       Late Motor Neurons       Motor Neurons   
+Gastd7-rep3-H3K4me3-6:TGTACCAA   Roof Plate Neural Tube         Neural Tube   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA       Late Motor Neurons       Motor Neurons   
+
+                                    lineage  \
+Cell_ID                                       
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Haemogenic   
+Gastd5-rep2-H3K27me3-1:AATGGTGG    Ectoderm   
+Gastd5-rep2-H3K27me3-1:AGTACGTG    Ectoderm   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG    Ectoderm   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC    Ectoderm   
+...                                     ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TGACCAAG     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TGTACCAA     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA     Ectoderm   
+
+                                                      predicted_id_E75  \
+Cell_ID                                                                  
+Gastd5-rep2-H3K27me3-1:AACCTGCT             Primitive Blood (Yolk Sac)   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Posterior Epiblast & Primitive Streak   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Posterior Epiblast & Primitive Streak   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG                 Neural Caudal Epiblast   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                                    NaN   
+...                                                                ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT          Anterior Epiblast (Pre-neural)   
+Gastd7-rep3-H3K4me3-6:TGACCAAG   Posterior Epiblast & Primitive Streak   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG   Posterior Epiblast & Primitive Streak   
+Gastd7-rep3-H3K4me3-6:TGTACCAA            Common Mesodermal IM, LP, PX   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                  Neural Caudal Epiblast   
+
+                                                       predicted_id_E85  \
+Cell_ID                                                                   
+Gastd5-rep2-H3K27me3-1:AACCTGCT               Yolk sac; primitive blood   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                               Notochord   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                                     NaN   
+...                                                                 ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT   Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd7-rep3-H3K4me3-6:TGACCAAG   Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG   Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                              Spinal cord   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA   Caudal Lateral Epiblast (dorsal, NMPs)   
+
+                                 prediction_confidence_E75  ...  \
+Cell_ID                                                     ...   
+Gastd5-rep2-H3K27me3-1:AACCTGCT                        NaN  ...   
+Gastd5-rep2-H3K27me3-1:AATGGTGG                   0.465498  ...   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                   0.440174  ...   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG                   0.249958  ...   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                        NaN  ...   
+...                                                    ...  ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                    0.097583  ...   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                    0.249365  ...   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                    0.523362  ...   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                    0.126000  ...   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                    0.153717  ...   
+
+                                 old_leiden_general  \
+Cell_ID                                               
+Gastd5-rep2-H3K27me3-1:AACCTGCT          Haemogenic   
+Gastd5-rep2-H3K27me3-1:AATGGTGG              Neural   
+Gastd5-rep2-H3K27me3-1:AGTACGTG              Neural   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG              Neural   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC              Neural   
+...                                             ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                  NaN   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                  NaN   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                  NaN   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                  NaN   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                  NaN   
+
+                                                   old_celltype  \
+Cell_ID                                                           
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Haematoendothelial Progenitors   
+Gastd5-rep2-H3K27me3-1:AATGGTGG                            NMPs   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                            NMPs   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG              Neural Progenitors   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                            NMPs   
+...                                                         ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                              NaN   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                              NaN   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                              NaN   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                              NaN   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                              NaN   
+
+                                   old_leiden_merge  X_umap-0   X_umap-1  \
+Cell_ID                                                                    
+Gastd5-rep2-H3K27me3-1:AACCTGCT          Haemogenic -0.218837  12.208694   
+Gastd5-rep2-H3K27me3-1:AATGGTGG                NMPs  0.428891   3.563945   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                NMPs  0.183011   5.837362   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Neural Progenitors  1.029718   4.301578   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                NMPs  0.750213   4.278991   
+...                                             ...       ...        ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                  NaN  1.293563  -3.600287   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                  NaN -0.744880  -5.074538   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                  NaN -0.864654  -5.508442   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                  NaN  2.297052  -0.260354   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                  NaN  0.649664  -3.404716   
+
+                                                 sample  bcID    bc_nla  \
+Cell_ID                                                                   
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...                                                 ...   ...       ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT    Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+Gastd7-rep3-H3K4me3-6:TGACCAAG    Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG    Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+Gastd7-rep3-H3K4me3-6:TGTACCAA    Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA    Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                                          Cell_ID   bc_vasa  
+Cell_ID                                                                      
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                                           ...       ...  
+Gastd7-rep3-H3K4me3-6:TTCAGCGT    Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+Gastd7-rep3-H3K4me3-6:TGACCAAG    Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+Gastd7-rep3-H3K4me3-6:TCTGTGAG    Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+Gastd7-rep3-H3K4me3-6:TGTACCAA    Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+Gastd7-rep3-H3K4me3-6:TTCGGAAA    Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 15:18:33,249 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:23:24,918 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:23:24,920 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:23:24,921 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 15:23:24,921 - INFO - adding raw count data to normalized data
+2025-01-20 15:23:25,658 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:23:25,658 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:23:25,658 - INFO - adding umap data to normalized data
+2025-01-20 15:23:25,658 - INFO -                                         index     day replicates      mark  \
+0      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341  Gastd5       rep2  H3K27me3   
+1      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310  Gastd5       rep2  H3K27me3   
+2      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302  Gastd5       rep2  H3K27me3   
+3        PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5  Gastd5       rep2  H3K27me3   
+4      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184  Gastd5       rep2  H3K27me3   
+...                                       ...     ...        ...       ...   
+38112   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224  Gastd7       rep3   H3K4me3   
+38113   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236  Gastd7       rep3   H3K4me3   
+38114   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199  Gastd7       rep3   H3K4me3   
+38115    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32  Gastd7       rep3   H3K4me3   
+38116    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45  Gastd7       rep3   H3K4me3   
+
+                     celltype    celltype_general     lineage  \
+0                 Endothelium          Haemogenic  Haemogenic   
+1          Neural Progenitors  Neural Progenitors    Ectoderm   
+2                        NMPs                NMPs    Ectoderm   
+3                        NMPs                NMPs    Ectoderm   
+4                        NMPs                NMPs    Ectoderm   
+...                       ...                 ...         ...   
+38112     Early Motor Neurons       Motor Neurons    Ectoderm   
+38113      Late Motor Neurons       Motor Neurons    Ectoderm   
+38114      Late Motor Neurons       Motor Neurons    Ectoderm   
+38115  Roof Plate Neural Tube         Neural Tube    Ectoderm   
+38116      Late Motor Neurons       Motor Neurons    Ectoderm   
+
+                            predicted_id_E75  \
+0                 Primitive Blood (Yolk Sac)   
+1      Posterior Epiblast & Primitive Streak   
+2      Posterior Epiblast & Primitive Streak   
+3                     Neural Caudal Epiblast   
+4                                        NaN   
+...                                      ...   
+38112         Anterior Epiblast (Pre-neural)   
+38113  Posterior Epiblast & Primitive Streak   
+38114  Posterior Epiblast & Primitive Streak   
+38115           Common Mesodermal IM, LP, PX   
+38116                 Neural Caudal Epiblast   
+
+                             predicted_id_E85  prediction_confidence_E75  ...  \
+0                   Yolk sac; primitive blood                        NaN  ...   
+1      Caudal Lateral Epiblast (dorsal, NMPs)                   0.465498  ...   
+2                                   Notochord                   0.440174  ...   
+3      Caudal Lateral Epiblast (dorsal, NMPs)                   0.249958  ...   
+4                                         NaN                        NaN  ...   
+...                                       ...                        ...  ...   
+38112  Caudal Lateral Epiblast (dorsal, NMPs)                   0.097583  ...   
+38113  Caudal Lateral Epiblast (dorsal, NMPs)                   0.249365  ...   
+38114  Caudal Lateral Epiblast (dorsal, NMPs)                   0.523362  ...   
+38115                             Spinal cord                   0.126000  ...   
+38116  Caudal Lateral Epiblast (dorsal, NMPs)                   0.153717  ...   
+
+       old_leiden_general                    old_celltype    old_leiden_merge  \
+0              Haemogenic  Haematoendothelial Progenitors          Haemogenic   
+1                  Neural                            NMPs                NMPs   
+2                  Neural                            NMPs                NMPs   
+3                  Neural              Neural Progenitors  Neural Progenitors   
+4                  Neural                            NMPs                NMPs   
+...                   ...                             ...                 ...   
+38112                 NaN                             NaN                 NaN   
+38113                 NaN                             NaN                 NaN   
+38114                 NaN                             NaN                 NaN   
+38115                 NaN                             NaN                 NaN   
+38116                 NaN                             NaN                 NaN   
+
+       X_umap-0   X_umap-1                  sample  bcID    bc_nla  \
+0     -0.218837  12.208694  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+1      0.428891   3.563945  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+2      0.183011   5.837362  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+3      1.029718   4.301578  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+4      0.750213   4.278991  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...         ...        ...                     ...   ...       ...   
+38112  1.293563  -3.600287   Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+38113 -0.744880  -5.074538   Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+38114 -0.864654  -5.508442   Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+38115  2.297052  -0.260354   Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+38116  0.649664  -3.404716   Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                Cell_ID   bc_vasa  
+0      Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+1      Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+2      Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+3      Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+4      Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                 ...       ...  
+38112   Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+38113   Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+38114   Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+38115   Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+38116   Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 15:23:25,788 - INFO - added umap data to normalized
+2025-01-20 15:23:25,788 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:24:13,711 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:24:13,711 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:24:13,712 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:24:13,712 - INFO - adding raw count data to normalized data
+2025-01-20 15:24:14,444 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:24:14,444 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:24:14,445 - INFO - adding umap data to normalized data
+2025-01-20 15:24:14,445 - INFO -                                                                   index  \
+Cell_ID                                                                   
+Gastd5-rep2-H3K27me3-1:AACCTGCT  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG    PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184   
+...                                                                 ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224   
+Gastd7-rep3-H3K4me3-6:TGACCAAG    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199   
+Gastd7-rep3-H3K4me3-6:TGTACCAA     PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA     PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45   
+
+                                    day replicates      mark  \
+Cell_ID                                                        
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Gastd5       rep2  H3K27me3   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  Gastd5       rep2  H3K27me3   
+...                                 ...        ...       ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TGACCAAG   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TGTACCAA   Gastd7       rep3   H3K4me3   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA   Gastd7       rep3   H3K4me3   
+
+                                               celltype    celltype_general  \
+Cell_ID                                                                       
+Gastd5-rep2-H3K27me3-1:AACCTGCT             Endothelium          Haemogenic   
+Gastd5-rep2-H3K27me3-1:AATGGTGG      Neural Progenitors  Neural Progenitors   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                    NMPs                NMPs   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG                    NMPs                NMPs   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                    NMPs                NMPs   
+...                                                 ...                 ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT      Early Motor Neurons       Motor Neurons   
+Gastd7-rep3-H3K4me3-6:TGACCAAG       Late Motor Neurons       Motor Neurons   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG       Late Motor Neurons       Motor Neurons   
+Gastd7-rep3-H3K4me3-6:TGTACCAA   Roof Plate Neural Tube         Neural Tube   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA       Late Motor Neurons       Motor Neurons   
+
+                                    lineage  \
+Cell_ID                                       
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Haemogenic   
+Gastd5-rep2-H3K27me3-1:AATGGTGG    Ectoderm   
+Gastd5-rep2-H3K27me3-1:AGTACGTG    Ectoderm   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG    Ectoderm   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC    Ectoderm   
+...                                     ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TGACCAAG     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TGTACCAA     Ectoderm   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA     Ectoderm   
+
+                                                      predicted_id_E75  \
+Cell_ID                                                                  
+Gastd5-rep2-H3K27me3-1:AACCTGCT             Primitive Blood (Yolk Sac)   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Posterior Epiblast & Primitive Streak   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Posterior Epiblast & Primitive Streak   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG                 Neural Caudal Epiblast   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                                    NaN   
+...                                                                ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT          Anterior Epiblast (Pre-neural)   
+Gastd7-rep3-H3K4me3-6:TGACCAAG   Posterior Epiblast & Primitive Streak   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG   Posterior Epiblast & Primitive Streak   
+Gastd7-rep3-H3K4me3-6:TGTACCAA            Common Mesodermal IM, LP, PX   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                  Neural Caudal Epiblast   
+
+                                                       predicted_id_E85  \
+Cell_ID                                                                   
+Gastd5-rep2-H3K27me3-1:AACCTGCT               Yolk sac; primitive blood   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                               Notochord   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                                     NaN   
+...                                                                 ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT   Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd7-rep3-H3K4me3-6:TGACCAAG   Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG   Caudal Lateral Epiblast (dorsal, NMPs)   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                              Spinal cord   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA   Caudal Lateral Epiblast (dorsal, NMPs)   
+
+                                 prediction_confidence_E75  ...  \
+Cell_ID                                                     ...   
+Gastd5-rep2-H3K27me3-1:AACCTGCT                        NaN  ...   
+Gastd5-rep2-H3K27me3-1:AATGGTGG                   0.465498  ...   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                   0.440174  ...   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG                   0.249958  ...   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                        NaN  ...   
+...                                                    ...  ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                    0.097583  ...   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                    0.249365  ...   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                    0.523362  ...   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                    0.126000  ...   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                    0.153717  ...   
+
+                                 old_leiden_general  \
+Cell_ID                                               
+Gastd5-rep2-H3K27me3-1:AACCTGCT          Haemogenic   
+Gastd5-rep2-H3K27me3-1:AATGGTGG              Neural   
+Gastd5-rep2-H3K27me3-1:AGTACGTG              Neural   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG              Neural   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC              Neural   
+...                                             ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                  NaN   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                  NaN   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                  NaN   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                  NaN   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                  NaN   
+
+                                                   old_celltype  \
+Cell_ID                                                           
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Haematoendothelial Progenitors   
+Gastd5-rep2-H3K27me3-1:AATGGTGG                            NMPs   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                            NMPs   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG              Neural Progenitors   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                            NMPs   
+...                                                         ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                              NaN   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                              NaN   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                              NaN   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                              NaN   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                              NaN   
+
+                                   old_leiden_merge  X_umap-0   X_umap-1  \
+Cell_ID                                                                    
+Gastd5-rep2-H3K27me3-1:AACCTGCT          Haemogenic -0.218837  12.208694   
+Gastd5-rep2-H3K27me3-1:AATGGTGG                NMPs  0.428891   3.563945   
+Gastd5-rep2-H3K27me3-1:AGTACGTG                NMPs  0.183011   5.837362   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Neural Progenitors  1.029718   4.301578   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC                NMPs  0.750213   4.278991   
+...                                             ...       ...        ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT                  NaN  1.293563  -3.600287   
+Gastd7-rep3-H3K4me3-6:TGACCAAG                  NaN -0.744880  -5.074538   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG                  NaN -0.864654  -5.508442   
+Gastd7-rep3-H3K4me3-6:TGTACCAA                  NaN  2.297052  -0.260354   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA                  NaN  0.649664  -3.404716   
+
+                                                 sample  bcID    bc_nla  \
+Cell_ID                                                                   
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...                                                 ...   ...       ...   
+Gastd7-rep3-H3K4me3-6:TTCAGCGT    Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+Gastd7-rep3-H3K4me3-6:TGACCAAG    Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+Gastd7-rep3-H3K4me3-6:TCTGTGAG    Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+Gastd7-rep3-H3K4me3-6:TGTACCAA    Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+Gastd7-rep3-H3K4me3-6:TTCGGAAA    Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                                          Cell_ID   bc_vasa  
+Cell_ID                                                                      
+Gastd5-rep2-H3K27me3-1:AACCTGCT  Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+Gastd5-rep2-H3K27me3-1:AATGGTGG  Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+Gastd5-rep2-H3K27me3-1:AGTACGTG  Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+Gastd5-rep2-H3K27me3-1:ATTTAGCG  Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+Gastd5-rep2-H3K27me3-1:AGCAGAAC  Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                                           ...       ...  
+Gastd7-rep3-H3K4me3-6:TTCAGCGT    Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+Gastd7-rep3-H3K4me3-6:TGACCAAG    Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+Gastd7-rep3-H3K4me3-6:TCTGTGAG    Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+Gastd7-rep3-H3K4me3-6:TGTACCAA    Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+Gastd7-rep3-H3K4me3-6:TTCGGAAA    Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 15:25:08,794 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:25:08,795 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:25:08,795 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 15:25:08,795 - INFO - adding raw count data to normalized data
+2025-01-20 15:25:09,544 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:25:09,544 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:25:09,545 - INFO - adding umap data to normalized data
+2025-01-20 15:25:09,545 - INFO -                                         index     day replicates      mark  \
+0      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341  Gastd5       rep2  H3K27me3   
+1      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310  Gastd5       rep2  H3K27me3   
+2      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302  Gastd5       rep2  H3K27me3   
+3        PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5  Gastd5       rep2  H3K27me3   
+4      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184  Gastd5       rep2  H3K27me3   
+...                                       ...     ...        ...       ...   
+38112   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224  Gastd7       rep3   H3K4me3   
+38113   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236  Gastd7       rep3   H3K4me3   
+38114   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199  Gastd7       rep3   H3K4me3   
+38115    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32  Gastd7       rep3   H3K4me3   
+38116    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45  Gastd7       rep3   H3K4me3   
+
+                     celltype    celltype_general     lineage  \
+0                 Endothelium          Haemogenic  Haemogenic   
+1          Neural Progenitors  Neural Progenitors    Ectoderm   
+2                        NMPs                NMPs    Ectoderm   
+3                        NMPs                NMPs    Ectoderm   
+4                        NMPs                NMPs    Ectoderm   
+...                       ...                 ...         ...   
+38112     Early Motor Neurons       Motor Neurons    Ectoderm   
+38113      Late Motor Neurons       Motor Neurons    Ectoderm   
+38114      Late Motor Neurons       Motor Neurons    Ectoderm   
+38115  Roof Plate Neural Tube         Neural Tube    Ectoderm   
+38116      Late Motor Neurons       Motor Neurons    Ectoderm   
+
+                            predicted_id_E75  \
+0                 Primitive Blood (Yolk Sac)   
+1      Posterior Epiblast & Primitive Streak   
+2      Posterior Epiblast & Primitive Streak   
+3                     Neural Caudal Epiblast   
+4                                        NaN   
+...                                      ...   
+38112         Anterior Epiblast (Pre-neural)   
+38113  Posterior Epiblast & Primitive Streak   
+38114  Posterior Epiblast & Primitive Streak   
+38115           Common Mesodermal IM, LP, PX   
+38116                 Neural Caudal Epiblast   
+
+                             predicted_id_E85  prediction_confidence_E75  ...  \
+0                   Yolk sac; primitive blood                        NaN  ...   
+1      Caudal Lateral Epiblast (dorsal, NMPs)                   0.465498  ...   
+2                                   Notochord                   0.440174  ...   
+3      Caudal Lateral Epiblast (dorsal, NMPs)                   0.249958  ...   
+4                                         NaN                        NaN  ...   
+...                                       ...                        ...  ...   
+38112  Caudal Lateral Epiblast (dorsal, NMPs)                   0.097583  ...   
+38113  Caudal Lateral Epiblast (dorsal, NMPs)                   0.249365  ...   
+38114  Caudal Lateral Epiblast (dorsal, NMPs)                   0.523362  ...   
+38115                             Spinal cord                   0.126000  ...   
+38116  Caudal Lateral Epiblast (dorsal, NMPs)                   0.153717  ...   
+
+       old_leiden_general                    old_celltype    old_leiden_merge  \
+0              Haemogenic  Haematoendothelial Progenitors          Haemogenic   
+1                  Neural                            NMPs                NMPs   
+2                  Neural                            NMPs                NMPs   
+3                  Neural              Neural Progenitors  Neural Progenitors   
+4                  Neural                            NMPs                NMPs   
+...                   ...                             ...                 ...   
+38112                 NaN                             NaN                 NaN   
+38113                 NaN                             NaN                 NaN   
+38114                 NaN                             NaN                 NaN   
+38115                 NaN                             NaN                 NaN   
+38116                 NaN                             NaN                 NaN   
+
+       X_umap-0   X_umap-1                  sample  bcID    bc_nla  \
+0     -0.218837  12.208694  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+1      0.428891   3.563945  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+2      0.183011   5.837362  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+3      1.029718   4.301578  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+4      0.750213   4.278991  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...         ...        ...                     ...   ...       ...   
+38112  1.293563  -3.600287   Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+38113 -0.744880  -5.074538   Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+38114 -0.864654  -5.508442   Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+38115  2.297052  -0.260354   Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+38116  0.649664  -3.404716   Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                Cell_ID   bc_vasa  
+0      Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+1      Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+2      Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+3      Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+4      Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                 ...       ...  
+38112   Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+38113   Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+38114   Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+38115   Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+38116   Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 15:25:09,676 - INFO - added umap data to normalized
+2025-01-20 15:25:09,677 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'X_umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:52:25,291 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:52:25,293 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:52:25,293 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 15:52:25,293 - INFO - adding raw count data to normalized data
+2025-01-20 15:52:26,030 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:52:26,030 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:52:26,031 - INFO - adding umap data to normalized data
+2025-01-20 15:52:26,031 - INFO -                                         index     day replicates      mark  \
+0      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341  Gastd5       rep2  H3K27me3   
+1      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310  Gastd5       rep2  H3K27me3   
+2      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302  Gastd5       rep2  H3K27me3   
+3        PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5  Gastd5       rep2  H3K27me3   
+4      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184  Gastd5       rep2  H3K27me3   
+...                                       ...     ...        ...       ...   
+38112   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224  Gastd7       rep3   H3K4me3   
+38113   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236  Gastd7       rep3   H3K4me3   
+38114   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199  Gastd7       rep3   H3K4me3   
+38115    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32  Gastd7       rep3   H3K4me3   
+38116    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45  Gastd7       rep3   H3K4me3   
+
+                     celltype    celltype_general     lineage  \
+0                 Endothelium          Haemogenic  Haemogenic   
+1          Neural Progenitors  Neural Progenitors    Ectoderm   
+2                        NMPs                NMPs    Ectoderm   
+3                        NMPs                NMPs    Ectoderm   
+4                        NMPs                NMPs    Ectoderm   
+...                       ...                 ...         ...   
+38112     Early Motor Neurons       Motor Neurons    Ectoderm   
+38113      Late Motor Neurons       Motor Neurons    Ectoderm   
+38114      Late Motor Neurons       Motor Neurons    Ectoderm   
+38115  Roof Plate Neural Tube         Neural Tube    Ectoderm   
+38116      Late Motor Neurons       Motor Neurons    Ectoderm   
+
+                            predicted_id_E75  \
+0                 Primitive Blood (Yolk Sac)   
+1      Posterior Epiblast & Primitive Streak   
+2      Posterior Epiblast & Primitive Streak   
+3                     Neural Caudal Epiblast   
+4                                        NaN   
+...                                      ...   
+38112         Anterior Epiblast (Pre-neural)   
+38113  Posterior Epiblast & Primitive Streak   
+38114  Posterior Epiblast & Primitive Streak   
+38115           Common Mesodermal IM, LP, PX   
+38116                 Neural Caudal Epiblast   
+
+                             predicted_id_E85  prediction_confidence_E75  ...  \
+0                   Yolk sac; primitive blood                        NaN  ...   
+1      Caudal Lateral Epiblast (dorsal, NMPs)                   0.465498  ...   
+2                                   Notochord                   0.440174  ...   
+3      Caudal Lateral Epiblast (dorsal, NMPs)                   0.249958  ...   
+4                                         NaN                        NaN  ...   
+...                                       ...                        ...  ...   
+38112  Caudal Lateral Epiblast (dorsal, NMPs)                   0.097583  ...   
+38113  Caudal Lateral Epiblast (dorsal, NMPs)                   0.249365  ...   
+38114  Caudal Lateral Epiblast (dorsal, NMPs)                   0.523362  ...   
+38115                             Spinal cord                   0.126000  ...   
+38116  Caudal Lateral Epiblast (dorsal, NMPs)                   0.153717  ...   
+
+       old_leiden_general                    old_celltype    old_leiden_merge  \
+0              Haemogenic  Haematoendothelial Progenitors          Haemogenic   
+1                  Neural                            NMPs                NMPs   
+2                  Neural                            NMPs                NMPs   
+3                  Neural              Neural Progenitors  Neural Progenitors   
+4                  Neural                            NMPs                NMPs   
+...                   ...                             ...                 ...   
+38112                 NaN                             NaN                 NaN   
+38113                 NaN                             NaN                 NaN   
+38114                 NaN                             NaN                 NaN   
+38115                 NaN                             NaN                 NaN   
+38116                 NaN                             NaN                 NaN   
+
+       X_umap-0   X_umap-1                  sample  bcID    bc_nla  \
+0     -0.218837  12.208694  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+1      0.428891   3.563945  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+2      0.183011   5.837362  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+3      1.029718   4.301578  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+4      0.750213   4.278991  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...         ...        ...                     ...   ...       ...   
+38112  1.293563  -3.600287   Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+38113 -0.744880  -5.074538   Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+38114 -0.864654  -5.508442   Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+38115  2.297052  -0.260354   Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+38116  0.649664  -3.404716   Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                Cell_ID   bc_vasa  
+0      Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+1      Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+2      Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+3      Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+4      Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                 ...       ...  
+38112   Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+38113   Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+38114   Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+38115   Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+38116   Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 15:52:26,163 - INFO - added umap data to normalized
+2025-01-20 15:52:26,163 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'X_umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:59:05,594 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 15:59:05,596 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:59:05,596 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 15:59:05,597 - INFO - adding raw count data to normalized data
+2025-01-20 15:59:06,351 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 15:59:06,351 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 15:59:06,351 - INFO - adding umap data to normalized data
+2025-01-20 15:59:06,351 - INFO -                                         index     day replicates      mark  \
+0      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341  Gastd5       rep2  H3K27me3   
+1      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310  Gastd5       rep2  H3K27me3   
+2      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302  Gastd5       rep2  H3K27me3   
+3        PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5  Gastd5       rep2  H3K27me3   
+4      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184  Gastd5       rep2  H3K27me3   
+...                                       ...     ...        ...       ...   
+38112   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224  Gastd7       rep3   H3K4me3   
+38113   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236  Gastd7       rep3   H3K4me3   
+38114   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199  Gastd7       rep3   H3K4me3   
+38115    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32  Gastd7       rep3   H3K4me3   
+38116    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45  Gastd7       rep3   H3K4me3   
+
+                     celltype    celltype_general     lineage  \
+0                 Endothelium          Haemogenic  Haemogenic   
+1          Neural Progenitors  Neural Progenitors    Ectoderm   
+2                        NMPs                NMPs    Ectoderm   
+3                        NMPs                NMPs    Ectoderm   
+4                        NMPs                NMPs    Ectoderm   
+...                       ...                 ...         ...   
+38112     Early Motor Neurons       Motor Neurons    Ectoderm   
+38113      Late Motor Neurons       Motor Neurons    Ectoderm   
+38114      Late Motor Neurons       Motor Neurons    Ectoderm   
+38115  Roof Plate Neural Tube         Neural Tube    Ectoderm   
+38116      Late Motor Neurons       Motor Neurons    Ectoderm   
+
+                            predicted_id_E75  \
+0                 Primitive Blood (Yolk Sac)   
+1      Posterior Epiblast & Primitive Streak   
+2      Posterior Epiblast & Primitive Streak   
+3                     Neural Caudal Epiblast   
+4                                        NaN   
+...                                      ...   
+38112         Anterior Epiblast (Pre-neural)   
+38113  Posterior Epiblast & Primitive Streak   
+38114  Posterior Epiblast & Primitive Streak   
+38115           Common Mesodermal IM, LP, PX   
+38116                 Neural Caudal Epiblast   
+
+                             predicted_id_E85  prediction_confidence_E75  ...  \
+0                   Yolk sac; primitive blood                        NaN  ...   
+1      Caudal Lateral Epiblast (dorsal, NMPs)                   0.465498  ...   
+2                                   Notochord                   0.440174  ...   
+3      Caudal Lateral Epiblast (dorsal, NMPs)                   0.249958  ...   
+4                                         NaN                        NaN  ...   
+...                                       ...                        ...  ...   
+38112  Caudal Lateral Epiblast (dorsal, NMPs)                   0.097583  ...   
+38113  Caudal Lateral Epiblast (dorsal, NMPs)                   0.249365  ...   
+38114  Caudal Lateral Epiblast (dorsal, NMPs)                   0.523362  ...   
+38115                             Spinal cord                   0.126000  ...   
+38116  Caudal Lateral Epiblast (dorsal, NMPs)                   0.153717  ...   
+
+       old_leiden_general                    old_celltype    old_leiden_merge  \
+0              Haemogenic  Haematoendothelial Progenitors          Haemogenic   
+1                  Neural                            NMPs                NMPs   
+2                  Neural                            NMPs                NMPs   
+3                  Neural              Neural Progenitors  Neural Progenitors   
+4                  Neural                            NMPs                NMPs   
+...                   ...                             ...                 ...   
+38112                 NaN                             NaN                 NaN   
+38113                 NaN                             NaN                 NaN   
+38114                 NaN                             NaN                 NaN   
+38115                 NaN                             NaN                 NaN   
+38116                 NaN                             NaN                 NaN   
+
+       X_umap-0   X_umap-1                  sample  bcID    bc_nla  \
+0     -0.218837  12.208694  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+1      0.428891   3.563945  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+2      0.183011   5.837362  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+3      1.029718   4.301578  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+4      0.750213   4.278991  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...         ...        ...                     ...   ...       ...   
+38112  1.293563  -3.600287   Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+38113 -0.744880  -5.074538   Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+38114 -0.864654  -5.508442   Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+38115  2.297052  -0.260354   Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+38116  0.649664  -3.404716   Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                Cell_ID   bc_vasa  
+0      Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+1      Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+2      Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+3      Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+4      Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                 ...       ...  
+38112   Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+38113   Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+38114   Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+38115   Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+38116   Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 15:59:06,476 - INFO - added umap data to normalized
+2025-01-20 15:59:06,476 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 16:04:52,985 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 16:04:52,987 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 16:04:52,987 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 16:04:52,988 - INFO - adding raw count data to normalized data
+2025-01-20 16:04:53,768 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 16:04:53,768 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 16:04:53,768 - INFO - adding umap data to normalized data
+2025-01-20 16:04:53,768 - INFO -                                         index     day replicates      mark  \
+0      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341  Gastd5       rep2  H3K27me3   
+1      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310  Gastd5       rep2  H3K27me3   
+2      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302  Gastd5       rep2  H3K27me3   
+3        PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5  Gastd5       rep2  H3K27me3   
+4      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184  Gastd5       rep2  H3K27me3   
+...                                       ...     ...        ...       ...   
+38112   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224  Gastd7       rep3   H3K4me3   
+38113   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236  Gastd7       rep3   H3K4me3   
+38114   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199  Gastd7       rep3   H3K4me3   
+38115    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32  Gastd7       rep3   H3K4me3   
+38116    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45  Gastd7       rep3   H3K4me3   
+
+                     celltype    celltype_general     lineage  \
+0                 Endothelium          Haemogenic  Haemogenic   
+1          Neural Progenitors  Neural Progenitors    Ectoderm   
+2                        NMPs                NMPs    Ectoderm   
+3                        NMPs                NMPs    Ectoderm   
+4                        NMPs                NMPs    Ectoderm   
+...                       ...                 ...         ...   
+38112     Early Motor Neurons       Motor Neurons    Ectoderm   
+38113      Late Motor Neurons       Motor Neurons    Ectoderm   
+38114      Late Motor Neurons       Motor Neurons    Ectoderm   
+38115  Roof Plate Neural Tube         Neural Tube    Ectoderm   
+38116      Late Motor Neurons       Motor Neurons    Ectoderm   
+
+                            predicted_id_E75  \
+0                 Primitive Blood (Yolk Sac)   
+1      Posterior Epiblast & Primitive Streak   
+2      Posterior Epiblast & Primitive Streak   
+3                     Neural Caudal Epiblast   
+4                                        NaN   
+...                                      ...   
+38112         Anterior Epiblast (Pre-neural)   
+38113  Posterior Epiblast & Primitive Streak   
+38114  Posterior Epiblast & Primitive Streak   
+38115           Common Mesodermal IM, LP, PX   
+38116                 Neural Caudal Epiblast   
+
+                             predicted_id_E85  prediction_confidence_E75  ...  \
+0                   Yolk sac; primitive blood                        NaN  ...   
+1      Caudal Lateral Epiblast (dorsal, NMPs)                   0.465498  ...   
+2                                   Notochord                   0.440174  ...   
+3      Caudal Lateral Epiblast (dorsal, NMPs)                   0.249958  ...   
+4                                         NaN                        NaN  ...   
+...                                       ...                        ...  ...   
+38112  Caudal Lateral Epiblast (dorsal, NMPs)                   0.097583  ...   
+38113  Caudal Lateral Epiblast (dorsal, NMPs)                   0.249365  ...   
+38114  Caudal Lateral Epiblast (dorsal, NMPs)                   0.523362  ...   
+38115                             Spinal cord                   0.126000  ...   
+38116  Caudal Lateral Epiblast (dorsal, NMPs)                   0.153717  ...   
+
+       old_leiden_general                    old_celltype    old_leiden_merge  \
+0              Haemogenic  Haematoendothelial Progenitors          Haemogenic   
+1                  Neural                            NMPs                NMPs   
+2                  Neural                            NMPs                NMPs   
+3                  Neural              Neural Progenitors  Neural Progenitors   
+4                  Neural                            NMPs                NMPs   
+...                   ...                             ...                 ...   
+38112                 NaN                             NaN                 NaN   
+38113                 NaN                             NaN                 NaN   
+38114                 NaN                             NaN                 NaN   
+38115                 NaN                             NaN                 NaN   
+38116                 NaN                             NaN                 NaN   
+
+       X_umap-0   X_umap-1                  sample  bcID    bc_nla  \
+0     -0.218837  12.208694  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+1      0.428891   3.563945  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+2      0.183011   5.837362  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+3      1.029718   4.301578  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+4      0.750213   4.278991  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...         ...        ...                     ...   ...       ...   
+38112  1.293563  -3.600287   Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+38113 -0.744880  -5.074538   Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+38114 -0.864654  -5.508442   Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+38115  2.297052  -0.260354   Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+38116  0.649664  -3.404716   Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                Cell_ID   bc_vasa  
+0      Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+1      Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+2      Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+3      Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+4      Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                 ...       ...  
+38112   Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+38113   Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+38114   Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+38115   Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+38116   Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 16:04:53,911 - INFO - added umap data to normalized
+2025-01-20 16:04:53,911 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'X_umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 16:18:03,927 - INFO - shape of both sets, raw:norm(35223, 18311):(35223, 18311)
+2025-01-20 16:18:03,928 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 16:18:03,929 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced'
+2025-01-20 16:18:03,929 - INFO - adding raw count data to normalized data
+2025-01-20 16:18:04,675 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    layers: 'ambiguous', 'chic_counts', 'matrix', 'spliced', 'unspliced'
+2025-01-20 16:18:04,675 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 16:18:04,675 - INFO - adding umap data to normalized data
+2025-01-20 16:18:04,675 - INFO -                                         index     day replicates      mark  \
+0      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_341  Gastd5       rep2  H3K27me3   
+1      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_310  Gastd5       rep2  H3K27me3   
+2      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_302  Gastd5       rep2  H3K27me3   
+3        PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_5  Gastd5       rep2  H3K27me3   
+4      PZ-MB-TChIC-Gastd5-rep2-H3K27me3-1_184  Gastd5       rep2  H3K27me3   
+...                                       ...     ...        ...       ...   
+38112   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_224  Gastd7       rep3   H3K4me3   
+38113   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_236  Gastd7       rep3   H3K4me3   
+38114   PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_199  Gastd7       rep3   H3K4me3   
+38115    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_32  Gastd7       rep3   H3K4me3   
+38116    PZ-MB-TChIC-Gastd7-rep3-H3K4me3-6_45  Gastd7       rep3   H3K4me3   
+
+                     celltype    celltype_general     lineage  \
+0                 Endothelium          Haemogenic  Haemogenic   
+1          Neural Progenitors  Neural Progenitors    Ectoderm   
+2                        NMPs                NMPs    Ectoderm   
+3                        NMPs                NMPs    Ectoderm   
+4                        NMPs                NMPs    Ectoderm   
+...                       ...                 ...         ...   
+38112     Early Motor Neurons       Motor Neurons    Ectoderm   
+38113      Late Motor Neurons       Motor Neurons    Ectoderm   
+38114      Late Motor Neurons       Motor Neurons    Ectoderm   
+38115  Roof Plate Neural Tube         Neural Tube    Ectoderm   
+38116      Late Motor Neurons       Motor Neurons    Ectoderm   
+
+                            predicted_id_E75  \
+0                 Primitive Blood (Yolk Sac)   
+1      Posterior Epiblast & Primitive Streak   
+2      Posterior Epiblast & Primitive Streak   
+3                     Neural Caudal Epiblast   
+4                                        NaN   
+...                                      ...   
+38112         Anterior Epiblast (Pre-neural)   
+38113  Posterior Epiblast & Primitive Streak   
+38114  Posterior Epiblast & Primitive Streak   
+38115           Common Mesodermal IM, LP, PX   
+38116                 Neural Caudal Epiblast   
+
+                             predicted_id_E85  prediction_confidence_E75  ...  \
+0                   Yolk sac; primitive blood                        NaN  ...   
+1      Caudal Lateral Epiblast (dorsal, NMPs)                   0.465498  ...   
+2                                   Notochord                   0.440174  ...   
+3      Caudal Lateral Epiblast (dorsal, NMPs)                   0.249958  ...   
+4                                         NaN                        NaN  ...   
+...                                       ...                        ...  ...   
+38112  Caudal Lateral Epiblast (dorsal, NMPs)                   0.097583  ...   
+38113  Caudal Lateral Epiblast (dorsal, NMPs)                   0.249365  ...   
+38114  Caudal Lateral Epiblast (dorsal, NMPs)                   0.523362  ...   
+38115                             Spinal cord                   0.126000  ...   
+38116  Caudal Lateral Epiblast (dorsal, NMPs)                   0.153717  ...   
+
+       old_leiden_general                    old_celltype    old_leiden_merge  \
+0              Haemogenic  Haematoendothelial Progenitors          Haemogenic   
+1                  Neural                            NMPs                NMPs   
+2                  Neural                            NMPs                NMPs   
+3                  Neural              Neural Progenitors  Neural Progenitors   
+4                  Neural                            NMPs                NMPs   
+...                   ...                             ...                 ...   
+38112                 NaN                             NaN                 NaN   
+38113                 NaN                             NaN                 NaN   
+38114                 NaN                             NaN                 NaN   
+38115                 NaN                             NaN                 NaN   
+38116                 NaN                             NaN                 NaN   
+
+       X_umap-0   X_umap-1                  sample  bcID    bc_nla  \
+0     -0.218837  12.208694  Gastd5-rep2-H3K27me3-1   341  TCATTCCT   
+1      0.428891   3.563945  Gastd5-rep2-H3K27me3-1   310  CACAATTG   
+2      0.183011   5.837362  Gastd5-rep2-H3K27me3-1   302  TCGAACGG   
+3      1.029718   4.301578  Gastd5-rep2-H3K27me3-1     5  ACACTGAT   
+4      0.750213   4.278991  Gastd5-rep2-H3K27me3-1   184  GTAAGTGT   
+...         ...        ...                     ...   ...       ...   
+38112  1.293563  -3.600287   Gastd7-rep3-H3K4me3-6   224  GCTCAACA   
+38113 -0.744880  -5.074538   Gastd7-rep3-H3K4me3-6   236  GTCAATGC   
+38114 -0.864654  -5.508442   Gastd7-rep3-H3K4me3-6   199  AGTTACAT   
+38115  2.297052  -0.260354   Gastd7-rep3-H3K4me3-6    32  AGCGTCTA   
+38116  0.649664  -3.404716   Gastd7-rep3-H3K4me3-6    45  ATCGAGAG   
+
+                                Cell_ID   bc_vasa  
+0      Gastd5-rep2-H3K27me3-1::AACCTGCT  AACCTGCT  
+1      Gastd5-rep2-H3K27me3-1::AATGGTGG  AATGGTGG  
+2      Gastd5-rep2-H3K27me3-1::AGTACGTG  AGTACGTG  
+3      Gastd5-rep2-H3K27me3-1::ATTTAGCG  ATTTAGCG  
+4      Gastd5-rep2-H3K27me3-1::AGCAGAAC  AGCAGAAC  
+...                                 ...       ...  
+38112   Gastd7-rep3-H3K4me3-6::TTCAGCGT  TTCAGCGT  
+38113   Gastd7-rep3-H3K4me3-6::TGACCAAG  TGACCAAG  
+38114   Gastd7-rep3-H3K4me3-6::TCTGTGAG  TCTGTGAG  
+38115   Gastd7-rep3-H3K4me3-6::TGTACCAA  TGTACCAA  
+38116   Gastd7-rep3-H3K4me3-6::TTCGGAAA  TTCGGAAA  
+
+[38117 rows x 22 columns]
+2025-01-20 16:18:04,802 - INFO - added umap data to normalized
+2025-01-20 16:18:04,802 - INFO - AnnData object with n_obs × n_vars = 35223 × 18311
+    obs: 'QC_peter', 'barcode_nla', 'barcode_vasa', 'batch_day_rep', 'bc_idx', 'colnames', 'coverage', 'day', 'day_rep', 'enrichment', 'exp_batch', 'mark', 'obs_names', 'plate_batch', 'plate_grp', 'rep', 'sample', 'seqrun', 'sizefactors_deconv_chic', 'sizefactors_deconv_spliced', 'sizefactors_deconv_unspliced', 'celltype', 'celltype_general', 'lineage', 'X_umap-0', 'X_umap-1'
+    var: 'Biotype', 'Chromosome', 'Symbol', 'eff_gene_length', 'eff_tx_length', 'gene_maxlen', 'gene_meanlen', 'rownames', 'sum_amb_length', 'sum_exon_length', 'sum_intron_length', 'total_gene_length', 'tx_maxlen', 'tx_meanlen'
+    obsm: 'colnames_factor', 'X_umap'
+    layers: 'chic', 'unspliced', 'raw_counts_unspliced', 'raw_counts_chic'
+2025-01-20 16:42:41,804 - WARNING - Matplotlib is building the font cache; this may take a moment.
+2025-01-20 16:42:43,197 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Can not load face (unknown file format; error code 0x2)
+2025-01-20 16:42:45,412 - INFO - Setting up CellOracle with base GRN and scRNA data with base grn:                      peak_id gene_short_name  cenpb  tead1  rbpj  nr2f6  lhx2  \
+31064  chr1_3212989_3217988            Xkr4      0      0     0      0     0   
+31065  chr1_3668499_3673498            Xkr4      0      0     0      0     0   
+11034  chr1_4492480_4497479           Sox17      0      0     0      0     0   
+43674  chr1_4968857_4973856         Gm16041      0      0     0      0     0   
+20290  chr1_5914399_5919398          Npbwr1      0      0     0      0     0   
+...                     ...             ...    ...    ...   ...    ...   ...   
+36550  chrY_1134182_1139181             Uty      0      0     0      0     0   
+36551  chrY_1166187_1171186             Uty      0      0     0      0     0   
+36552  chrY_1242614_1247613             Uty      0      0     0      0     0   
+36694  chrY_1261746_1266745           Ddx3y      0      0     0      0     0   
+36695  chrY_1283606_1288605           Ddx3y      0      0     0      0     0   
+
+       stat4  klf6  sp2  ...  maff  elf1  pou4f3  spic  hoxb13  hes5  egr4  \
+31064      0     0    0  ...     0     0       0     0       0     0     0   
+31065      0     0    0  ...     0     0       0     0       0     0     0   
+11034      0     0    0  ...     0     0       0     0       0     0     1   
+43674      1     0    0  ...     0     0       0     0       0     0     0   
+20290      0     0    0  ...     0     0       0     0       0     0     0   
+...      ...   ...  ...  ...   ...   ...     ...   ...     ...   ...   ...   
+36550      0     0    0  ...     0     0       0     0       0     0     0   
+36551      1     0    0  ...     0     0       0     0       0     0     0   
+36552      0     0    0  ...     0     0       0     0       0     0     0   
+36694      1     0    0  ...     0     0       0     0       0     0     0   
+36695      0     0    0  ...     0     0       0     0       0     0     0   
+
+       emx1  tbx3  lhx8  
+31064     0     0     0  
+31065     0     0     0  
+11034     0     0     0  
+43674     0     0     0  
+20290     0     0     0  
+...     ...   ...   ...  
+36550     0     0     0  
+36551     0     0     0  
+36552     0     0     0  
+36694     0     0     0  
+36695     0     0     0  
+
+[8270 rows x 476 columns]
+2025-01-20 16:42:50,075 - INFO - Creating CellOracle object

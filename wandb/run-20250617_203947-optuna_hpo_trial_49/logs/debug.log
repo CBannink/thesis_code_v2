@@ -1,0 +1,32 @@
+2025-06-17 20:39:47,182 INFO    MainThread:90978 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/caspar/thesis_code/wandb/run-20250617_203947-optuna_hpo_trial_49/logs/debug.log
+2025-06-17 20:39:47,182 INFO    MainThread:90978 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/caspar/thesis_code/wandb/run-20250617_203947-optuna_hpo_trial_49/logs/debug-internal.log
+2025-06-17 20:39:47,182 INFO    MainThread:90978 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x72d487bd6350>
+2025-06-17 20:39:47,182 INFO    MainThread:90978 [wandb_init.py:init():852] calling init triggers
+2025-06-17 20:39:47,182 INFO    MainThread:90978 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'ORACLE_PATH': '../celloracle_data/celloracle_object/new_promoter_without_mescs_trimmed_test_own_umap/ready_oracle.pkl', 'MODEL_SAVE_PATH_BASE': '../celloracle_data/optuna_hpo_models2', 'LOG_DIR_BASE': '../celloracle_data/optuna_hpo_logs2', 'HPO_FIXED_MAX_STEPS_PER_EPISODE': 30, 'BATCH_SIZE': 128, 'USE_MASKABLE_PPO': False, 'VERBOSE': 0, 'LOG_INTERVAL': 10, 'RESET_NUM_TIMESTEPS': False, 'DEVICE': 'auto', 'USE_PROGRESS_BAR': False, 'STEP_SAVE_FREQ': 1000000000, 'PPO_N_STEPS': 256, 'PPO_N_EPOCHS': 12, 'GAMMA': 0.9816993318027057, 'GAE_LAMBDA': 0.95, 'CLIP_RANGE': 0.24207321045586905, 'ENT_COEF': 0.01506771837430503, 'VF_COEF': 0.5911860449836062, 'MAX_GRAD_NORM': 0.5, 'LEARNING_RATE': 0.00023960899115892331, 'ALLOW_GENE_ACTIVATION': True, 'STANDARD_SD_FACTOR': 1.5, 'USE_LEARNING_RATE_SCHEDULE': False, 'USE_SIMILARITY_REWARD': True, 'USE_NEW_INPUT': True, 'USE_PREV_KNOCKOUT': True, 'DIVIDER_OF_TOTAL_STEPS_FOR_CURRICULUM_LEARNING': 20, 'TARGET_CELLS_PER_PHASE': 6, 'MAX_STEP_INCREASE_PER_PHASE': 8, 'MAX_STEPS_FIRST_PHASE': 50000, 'PHASE_STEP_INCREASE': 15000, 'MAX_STEPS_PER_EPISODE': 36, 'GENE_ACTIVITY_THRESHOLD': 0.01, 'TARGET_DISTANCE_THRESHOLD': 0.1, 'DISTANCE_GAMMA': 0.987961822183782, 'STEP_PENALTY': -0.04786053509430681, 'GOAL_BONUS': 17.327620265313794, 'FAIL_PENALTY': -3, 'SAME_CELL_PENALTY': -1.647557804056219, 'DISTANCE_REWARD_SCALE': 65.64610901864404, 'PARAMETER_TUNING': True, 'TOTAL_TIMESTEPS_HPO': 320000, 'PI_ARCH': [512, 512], 'VF_ARCH': [512, 512], 'ACTIVATION_FN': <class 'torch.nn.modules.activation.ReLU'>, 'MODEL_SAVE_PATH': '../celloracle_data/optuna_hpo_models2/trial_49', 'LOG_DIR': '../celloracle_data/optuna_hpo_logs2/trial_49', 'WANDB_RUN_ID': 'optuna_hpo_trial_49', 'WANDB_RUN_NAME': 't49_lr2.4e-04_ent0.02', 'optuna_trial_obj': <optuna.trial._trial.Trial object at 0x72d4a9682fb0>, 'TOTAL_TIMESTEPS': 320000, '_wandb': {}}
+2025-06-17 20:39:47,183 INFO    MainThread:90978 [wandb_init.py:init():893] starting backend
+2025-06-17 20:39:47,183 INFO    MainThread:90978 [wandb_init.py:init():897] sending inform_init request
+2025-06-17 20:39:47,184 INFO    MainThread:90978 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-06-17 20:39:47,184 INFO    MainThread:90978 [wandb_init.py:init():907] backend started and connected
+2025-06-17 20:39:47,188 INFO    MainThread:90978 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-06-17 20:39:47,188 INFO    MainThread:90978 [wandb_run.py:_label_probe_notebook():1379] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-06-17 20:39:47,188 INFO    MainThread:90978 [wandb_init.py:init():1002] updated telemetry
+2025-06-17 20:39:47,263 INFO    MainThread:90978 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-06-17 20:39:47,905 INFO    MainThread:90978 [wandb_init.py:init():1101] starting run threads in backend
+2025-06-17 20:39:49,238 INFO    MainThread:90978 [wandb_run.py:_console_start():2566] atexit reg
+2025-06-17 20:39:49,238 INFO    MainThread:90978 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-06-17 20:39:49,238 INFO    MainThread:90978 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-06-17 20:39:49,238 INFO    MainThread:90978 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-06-17 20:39:49,239 INFO    MainThread:90978 [wandb_init.py:init():1147] run started, returning control to user process
+2025-06-17 20:40:01,194 INFO    MainThread:90978 [wandb_watch.py:_watch():71] Watching
+2025-06-17 20:40:01,212 INFO    MainThread:90978 [wandb_run.py:_tensorboard_callback():1638] tensorboard callback: ../celloracle_data/optuna_hpo_logs2/trial_49/PPO_0, True
+2025-06-18 01:55:33,672 INFO    MainThread:90978 [wandb_run.py:_finish():2314] finishing run caspar-christiaan-utrecht-university/celloracle/optuna_hpo_trial_49
+2025-06-18 01:55:33,674 INFO    MainThread:90978 [jupyter.py:save_history():477] not saving jupyter history
+2025-06-18 01:55:33,674 INFO    MainThread:90978 [jupyter.py:save_ipynb():401] not saving jupyter notebook
+2025-06-18 01:55:33,674 INFO    MainThread:90978 [wandb_init.py:_jupyter_teardown():628] cleaning up jupyter logic
+2025-06-18 01:55:33,674 INFO    MainThread:90978 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 0
+2025-06-18 01:55:33,674 INFO    MainThread:90978 [wandb_run.py:_restore():2513] restore
+2025-06-18 01:55:33,674 INFO    MainThread:90978 [wandb_run.py:_restore():2519] restore done
+2025-06-18 01:55:35,400 INFO    MainThread:90978 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-06-18 01:55:35,401 INFO    MainThread:90978 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-06-18 01:55:35,402 INFO    MainThread:90978 [wandb_run.py:_footer_sync_info():4121] logging synced files

@@ -1,0 +1,869 @@
+2025-01-23 11:01:26,882 - INFO - Creating dict of genes with size: (65555, 9)
+2025-01-23 11:01:26,885 - INFO - Created dict of genes with size: 3000
+2025-01-23 11:01:26,885 - INFO - Creating gene column from promoter column
+2025-01-23 11:01:27,054 - INFO - Created gene column from promoter column
+2025-01-23 11:01:27,054 - INFO - subsetting the initial promoter gene list
+2025-01-23 11:01:27,054 - INFO - Subsetting the initial promoter gene list with original length: (65555, 10)
+2025-01-23 11:01:27,079 - INFO - Subsetting the initial promoter gene list with new length: (6171, 10)
+2025-01-23 11:01:27,079 - INFO - Creating peak id column in promoter dataset
+2025-01-23 11:01:27,098 - INFO - Created peak id column in promoter dataset
+2025-01-23 11:01:27,098 - INFO - Creating a set of TFs from the promoter column
+2025-01-23 11:01:27,120 - INFO - Created a set of TFs from the promoter column with size: 474
+2025-01-23 11:01:27,120 - INFO - Creating a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 11:01:27,543 - INFO - Created a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 11:01:27,585 - INFO - Filling the base grn
+2025-01-23 11:01:31,814 - INFO - Filled the base grn with shape: (6171, 476)
+2025-01-23 11:01:31,821 - INFO - Sample of base grn: 
+                    peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064  chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065  chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034  chr1_4492480_4497479           Sox17      0       0       0    0   
+20290  chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258  chr1_6485281_6490280            St18      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+
+[5 rows x 476 columns]
+2025-01-23 11:01:31,827 - INFO - Saving the base grn to a parquet file
+2025-01-23 11:01:32,060 - INFO - Saved the base grn to a parquet file
+2025-01-23 11:02:43,378 - WARNING - Matplotlib is building the font cache; this may take a moment.
+2025-01-23 11:02:44,408 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Can not load face (unknown file format; error code 0x2)
+2025-01-23 11:02:47,100 - INFO - Setting up CellOracle with base GRN and scRNA data with base grn:                          peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064      chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065      chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034      chr1_4492480_4497479           Sox17      0       0       0    0   
+20290      chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258      chr1_6485281_6490280            St18      0       0       0    0   
+...                         ...             ...    ...     ...     ...  ...   
+30218  chrX_167206072_167211071          Tmsb4x      0       0       0    0   
+45002  chrX_169103537_169108536         Gm15261      0       0       0    0   
+36550      chrY_1134182_1139181             Uty      0       0       0    0   
+36551      chrY_1166187_1171186             Uty      0       0       0    0   
+36552      chrY_1242614_1247613             Uty      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+...      ...    ...     ...  ...  ...   ...    ...    ...    ...    ...   ...   
+30218      0      0       0    0  ...     0      0      0      0      0     0   
+45002      0      0       0    0  ...     0      0      0      0      0     0   
+36550      0      0       0    0  ...     1      0      0      0      0     0   
+36551      0      0       0    0  ...     0      0      0      0      0     0   
+36552      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+...     ...    ...   ...   ...  
+30218     0      0     0     0  
+45002     0      0     0     0  
+36550     0      0     0     1  
+36551     0      0     0     0  
+36552     0      0     0     0  
+
+[6171 rows x 476 columns]
+2025-01-23 11:02:49,436 - INFO - Creating CellOracle object
+2025-01-23 11:06:23,058 - INFO - Setting up CellOracle with base GRN and scRNA data with base grn:                          peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064      chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065      chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034      chr1_4492480_4497479           Sox17      0       0       0    0   
+20290      chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258      chr1_6485281_6490280            St18      0       0       0    0   
+...                         ...             ...    ...     ...     ...  ...   
+30218  chrX_167206072_167211071          Tmsb4x      0       0       0    0   
+45002  chrX_169103537_169108536         Gm15261      0       0       0    0   
+36550      chrY_1134182_1139181             Uty      0       0       0    0   
+36551      chrY_1166187_1171186             Uty      0       0       0    0   
+36552      chrY_1242614_1247613             Uty      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+...      ...    ...     ...  ...  ...   ...    ...    ...    ...    ...   ...   
+30218      0      0       0    0  ...     0      0      0      0      0     0   
+45002      0      0       0    0  ...     0      0      0      0      0     0   
+36550      0      0       0    0  ...     1      0      0      0      0     0   
+36551      0      0       0    0  ...     0      0      0      0      0     0   
+36552      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+...     ...    ...   ...   ...  
+30218     0      0     0     0  
+45002     0      0     0     0  
+36550     0      0     0     1  
+36551     0      0     0     0  
+36552     0      0     0     0  
+
+[6171 rows x 476 columns]
+2025-01-23 11:06:25,110 - INFO - Creating CellOracle object
+2025-01-23 11:06:30,373 - INFO - data contents of anndata objects
+2025-01-23 11:06:30,373 - INFO -                      peak_id gene_short_name  9430076c15rik  Ac002126.6  \
+0  chr10_100050979_100052296   4930430F08Rik            0.0         0.0   
+1  chr10_101006922_101007748         SNORA17            0.0         0.0   
+2  chr10_101144061_101145000          Mgat4c            0.0         0.0   
+3    chr10_10148873_10149183   9130014G24Rik            0.0         0.0   
+4    chr10_10149425_10149815   9130014G24Rik            0.0         0.0   
+
+   Ac012531.1  Ac226150.2  Afp  Ahr  Ahrr  Aire  ...  Znf784  Znf8  Znf816  \
+0         1.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0     0.0   
+1         0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0     0.0   
+2         0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0     0.0   
+3         0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0     0.0   
+4         0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0     0.0   
+
+   Znf85  Zscan10  Zscan16  Zscan22  Zscan26  Zscan31  Zscan4  
+0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+1    0.0      0.0      0.0      0.0      0.0      1.0     0.0  
+2    0.0      0.0      0.0      0.0      0.0      0.0     1.0  
+3    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+4    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+
+[5 rows x 1095 columns]
+2025-01-23 11:06:30,389 - INFO -        0         1         2     3         4         5         6         7     \
+0  0.000000  0.000000  0.000000   0.0  0.000000  0.000000  0.000000  0.000000   
+1  0.000000  0.706885  0.706885   0.0  0.706885  0.000000  0.000000  0.706885   
+2  0.436405  1.309214  0.436405   0.0  0.872809  1.309214  0.000000  0.000000   
+3  0.418923  1.256768  0.418923   0.0  0.418923  0.837845  0.418923  1.675691   
+4  0.000000  3.023719  0.377965   0.0  0.755930  0.377965  0.000000  0.755930   
+
+       8         9     ...      1989  1990       1991  1992  1993  1994  \
+0  0.000000  0.000000  ...  0.000000   0.0  11.102436   0.0   0.0   0.0   
+1  0.000000  0.706885  ...  0.000000   0.0   0.000000   0.0   0.0   0.0   
+2  0.000000  0.000000  ...  3.054832   0.0   0.000000   0.0   0.0   0.0   
+3  0.000000  0.000000  ...  0.000000   0.0   0.000000   0.0   0.0   0.0   
+4  0.377965  0.000000  ...  2.267789   0.0   0.377965   0.0   0.0   0.0   
+
+       1995      1996      1997  1998  
+0  0.000000  0.000000  0.000000   0.0  
+1  1.413770  0.000000  0.000000   0.0  
+2  0.872809  0.436405  0.872809   0.0  
+3  0.000000  0.000000  0.000000   0.0  
+4  0.000000  0.755930  1.889824   0.0  
+
+[5 rows x 1999 columns]
+2025-01-23 11:06:30,400 - INFO -                     peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064  chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065  chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034  chr1_4492480_4497479           Sox17      0       0       0    0   
+20290  chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258  chr1_6485281_6490280            St18      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+
+[5 rows x 476 columns]
+2025-01-23 11:06:32,780 - INFO -                                                    0
+0  <Compressed Sparse Row sparse matrix of dtype ...
+1  <Compressed Sparse Row sparse matrix of dtype ...
+2  <Compressed Sparse Row sparse matrix of dtype ...
+3  <Compressed Sparse Row sparse matrix of dtype ...
+4  <Compressed Sparse Row sparse matrix of dtype ...
+2025-01-23 11:06:32,827 - INFO -                          peak_id gene_short_name  9430076c15rik  Ac002126.6  \
+0      chr10_100050979_100052296   4930430F08Rik            0.0         0.0   
+1      chr10_101006922_101007748         SNORA17            0.0         0.0   
+2      chr10_101144061_101145000          Mgat4c            0.0         0.0   
+3        chr10_10148873_10149183   9130014G24Rik            0.0         0.0   
+4        chr10_10149425_10149815   9130014G24Rik            0.0         0.0   
+...                          ...             ...            ...         ...   
+91971     chrX_99839037_99840900           Phka1            0.0         0.0   
+91972         chrY_345823_347369         Eif2s3y            0.0         0.0   
+91973         chrY_581272_582790             Uty            0.0         0.0   
+91974         chrY_621772_623366           Ddx3y            0.0         0.0   
+91975         chrY_795887_796426           Usp9y            0.0         0.0   
+
+       Ac012531.1  Ac226150.2  Afp  Ahr  Ahrr  Aire  ...  Znf784  Znf8  \
+0             1.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+1             0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+2             0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+3             0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+4             0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+...           ...         ...  ...  ...   ...   ...  ...     ...   ...   
+91971         0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+91972         0.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+91973         1.0         0.0  0.0  0.0   0.0   0.0  ...     1.0   0.0   
+91974         1.0         0.0  0.0  0.0   0.0   0.0  ...     0.0   0.0   
+91975         0.0         0.0  0.0  0.0   0.0   1.0  ...     0.0   0.0   
+
+       Znf816  Znf85  Zscan10  Zscan16  Zscan22  Zscan26  Zscan31  Zscan4  
+0         0.0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+1         0.0    0.0      0.0      0.0      0.0      0.0      1.0     0.0  
+2         0.0    0.0      0.0      0.0      0.0      0.0      0.0     1.0  
+3         0.0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+4         0.0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+...       ...    ...      ...      ...      ...      ...      ...     ...  
+91971     0.0    0.0      0.0      0.0      0.0      0.0      0.0     1.0  
+91972     0.0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+91973     0.0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+91974     0.0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+91975     0.0    0.0      0.0      0.0      0.0      0.0      0.0     0.0  
+
+[91976 rows x 1095 columns]
+2025-01-23 11:06:32,859 - INFO - clustering data
+2025-01-23 11:06:32,859 - INFO - [[ -7582.82199229   3954.26367242]
+ [  6271.20715241   4556.84144217]
+ [   -72.45906344 -10063.16547144]
+ ...
+ [ -6721.76411458   3925.79794085]
+ [  6321.39852547   -249.79358857]
+ [ -3321.20155871  -7933.20951522]]
+2025-01-23 11:06:32,859 - INFO - [[-1.1136042  -5.032965  ]
+ [-0.8064564   2.6871936 ]
+ [-0.552385    7.938679  ]
+ ...
+ [-1.0413617  -1.3686037 ]
+ [ 4.18859     5.2063212 ]
+ [-1.8460598   0.21257901]]
+2025-01-23 11:25:51,559 - INFO - Setting up CellOracle with base GRN and scRNA data with base grn:                          peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064      chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065      chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034      chr1_4492480_4497479           Sox17      0       0       0    0   
+20290      chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258      chr1_6485281_6490280            St18      0       0       0    0   
+...                         ...             ...    ...     ...     ...  ...   
+30218  chrX_167206072_167211071          Tmsb4x      0       0       0    0   
+45002  chrX_169103537_169108536         Gm15261      0       0       0    0   
+36550      chrY_1134182_1139181             Uty      0       0       0    0   
+36551      chrY_1166187_1171186             Uty      0       0       0    0   
+36552      chrY_1242614_1247613             Uty      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+...      ...    ...     ...  ...  ...   ...    ...    ...    ...    ...   ...   
+30218      0      0       0    0  ...     0      0      0      0      0     0   
+45002      0      0       0    0  ...     0      0      0      0      0     0   
+36550      0      0       0    0  ...     1      0      0      0      0     0   
+36551      0      0       0    0  ...     0      0      0      0      0     0   
+36552      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+...     ...    ...   ...   ...  
+30218     0      0     0     0  
+45002     0      0     0     0  
+36550     0      0     0     1  
+36551     0      0     0     0  
+36552     0      0     0     0  
+
+[6171 rows x 476 columns]
+2025-01-23 11:25:51,959 - INFO - Index(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:26:08,100 - INFO - Setting up CellOracle with base GRN and scRNA data with base grn:                          peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064      chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065      chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034      chr1_4492480_4497479           Sox17      0       0       0    0   
+20290      chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258      chr1_6485281_6490280            St18      0       0       0    0   
+...                         ...             ...    ...     ...     ...  ...   
+30218  chrX_167206072_167211071          Tmsb4x      0       0       0    0   
+45002  chrX_169103537_169108536         Gm15261      0       0       0    0   
+36550      chrY_1134182_1139181             Uty      0       0       0    0   
+36551      chrY_1166187_1171186             Uty      0       0       0    0   
+36552      chrY_1242614_1247613             Uty      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+...      ...    ...     ...  ...  ...   ...    ...    ...    ...    ...   ...   
+30218      0      0       0    0  ...     0      0      0      0      0     0   
+45002      0      0       0    0  ...     0      0      0      0      0     0   
+36550      0      0       0    0  ...     1      0      0      0      0     0   
+36551      0      0       0    0  ...     0      0      0      0      0     0   
+36552      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+...     ...    ...   ...   ...  
+30218     0      0     0     0  
+45002     0      0     0     0  
+36550     0      0     0     1  
+36551     0      0     0     0  
+36552     0      0     0     0  
+
+[6171 rows x 476 columns]
+2025-01-23 11:26:08,504 - INFO - Index(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:26:08,505 - INFO - Gene
+ENSMUSG00000029765           Plxna4
+ENSMUSG00000047281              Sfn
+ENSMUSG00000005370             Msh6
+ENSMUSG00000031452    1700029H14Rik
+ENSMUSG00000028023            Pitx2
+                          ...      
+ENSMUSG00000021219             Rgs6
+ENSMUSG00000086338          Gm13723
+ENSMUSG00000025153             Fasn
+ENSMUSG00000028936            Rpl22
+ENSMUSG00000019647           Sema6a
+Name: Symbol, Length: 3000, dtype: category
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:26:08,510 - INFO - [False False False ... False False False]
+2025-01-23 11:26:08,510 - INFO - Creating CellOracle object
+2025-01-23 11:27:39,641 - INFO - Setting up CellOracle with base GRN and scRNA data with base grn:                          peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064      chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065      chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034      chr1_4492480_4497479           Sox17      0       0       0    0   
+20290      chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258      chr1_6485281_6490280            St18      0       0       0    0   
+...                         ...             ...    ...     ...     ...  ...   
+30218  chrX_167206072_167211071          Tmsb4x      0       0       0    0   
+45002  chrX_169103537_169108536         Gm15261      0       0       0    0   
+36550      chrY_1134182_1139181             Uty      0       0       0    0   
+36551      chrY_1166187_1171186             Uty      0       0       0    0   
+36552      chrY_1242614_1247613             Uty      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+...      ...    ...     ...  ...  ...   ...    ...    ...    ...    ...   ...   
+30218      0      0       0    0  ...     0      0      0      0      0     0   
+45002      0      0       0    0  ...     0      0      0      0      0     0   
+36550      0      0       0    0  ...     1      0      0      0      0     0   
+36551      0      0       0    0  ...     0      0      0      0      0     0   
+36552      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+...     ...    ...   ...   ...  
+30218     0      0     0     0  
+45002     0      0     0     0  
+36550     0      0     0     1  
+36551     0      0     0     0  
+36552     0      0     0     0  
+
+[6171 rows x 476 columns]
+2025-01-23 11:27:40,043 - INFO - Index(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:27:40,044 - INFO - Gene
+ENSMUSG00000029765           Plxna4
+ENSMUSG00000047281              Sfn
+ENSMUSG00000005370             Msh6
+ENSMUSG00000031452    1700029H14Rik
+ENSMUSG00000028023            Pitx2
+                          ...      
+ENSMUSG00000021219             Rgs6
+ENSMUSG00000086338          Gm13723
+ENSMUSG00000025153             Fasn
+ENSMUSG00000028936            Rpl22
+ENSMUSG00000019647           Sema6a
+Name: Symbol, Length: 3000, dtype: category
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:27:40,046 - INFO - [False False False ... False False False]
+2025-01-23 11:27:40,047 - INFO - Creating CellOracle object
+2025-01-23 11:30:19,766 - INFO - Index(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:30:19,769 - INFO - Gene
+ENSMUSG00000029765           Plxna4
+ENSMUSG00000047281              Sfn
+ENSMUSG00000005370             Msh6
+ENSMUSG00000031452    1700029H14Rik
+ENSMUSG00000028023            Pitx2
+                          ...      
+ENSMUSG00000021219             Rgs6
+ENSMUSG00000086338          Gm13723
+ENSMUSG00000025153             Fasn
+ENSMUSG00000028936            Rpl22
+ENSMUSG00000019647           Sema6a
+Name: Symbol, Length: 3000, dtype: category
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:30:19,771 - INFO - Index(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:30:19,772 - INFO - [False False False ... False False False]
+2025-01-23 11:30:19,772 - INFO - Creating CellOracle object
+2025-01-23 11:33:29,692 - INFO - Creating CellOracle object
+2025-01-23 11:33:30,088 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:33:30,112 - INFO - var indesx values: [['protein_coding' '6' 'Plxna4' ... '443925' '12810' '10386.475']
+ ['protein_coding' '4' 'Sfn' ... '1613' '1613' '1613']
+ ['protein_coding' '17' 'Msh6' ... '15831' '4346' '4227.33333333333']
+ ...
+ ['protein_coding' '11' 'Fasn' ... '18702' '12166' '10172.4583333333']
+ ['protein_coding' '4' 'Rpl22' ... '8330' '4929' '2440.325']
+ ['protein_coding' '18' 'Sema6a' ... '133273' '9009' '0']]
+2025-01-23 11:33:30,114 - INFO - new var index values: [['protein_coding' '6' 'Plxna4' ... '443925' '12810' '10386.475']
+ ['protein_coding' '4' 'Sfn' ... '1613' '1613' '1613']
+ ['protein_coding' '17' 'Msh6' ... '15831' '4346' '4227.33333333333']
+ ...
+ ['protein_coding' '11' 'Fasn' ... '18702' '12166' '10172.4583333333']
+ ['protein_coding' '4' 'Rpl22' ... '8330' '4929' '2440.325']
+ ['protein_coding' '18' 'Sema6a' ... '133273' '9009' '0']]
+2025-01-23 11:33:30,115 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 11:33:30,115 - INFO - (30000, 3000)
+2025-01-23 11:34:22,365 - INFO - Creating CellOracle object
+2025-01-23 11:34:22,759 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:34:22,759 - INFO - var indesx values: ['ENSMUSG00000029765' 'ENSMUSG00000047281' 'ENSMUSG00000005370' ...
+ 'ENSMUSG00000025153' 'ENSMUSG00000028936' 'ENSMUSG00000019647']
+2025-01-23 11:34:22,760 - INFO - new var index values: ['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', ..., 'Rgs6', 'Gm13723', 'Fasn', 'Rpl22', 'Sema6a']
+Length: 3000
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:34:22,761 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 11:34:22,761 - INFO - (30000, 3000)
+2025-01-23 11:43:24,785 - INFO - Creating CellOracle object
+2025-01-23 11:43:25,183 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:43:25,183 - INFO - var indesx values: ['ENSMUSG00000029765' 'ENSMUSG00000047281' 'ENSMUSG00000005370' ...
+ 'ENSMUSG00000025153' 'ENSMUSG00000028936' 'ENSMUSG00000019647']
+2025-01-23 11:43:25,185 - INFO - new var index values: ['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', ..., 'Rgs6', 'Gm13723', 'Fasn', 'Rpl22', 'Sema6a']
+Length: 3000
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:43:25,186 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 11:43:25,186 - INFO - (30000, 3000)
+2025-01-23 11:54:23,747 - INFO - Creating CellOracle object
+2025-01-23 11:54:24,175 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:54:24,176 - INFO - var indesx values: ['ENSMUSG00000029765' 'ENSMUSG00000047281' 'ENSMUSG00000005370' ...
+ 'ENSMUSG00000025153' 'ENSMUSG00000028936' 'ENSMUSG00000019647']
+2025-01-23 11:54:24,177 - INFO - new var index values: ['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', ..., 'Rgs6', 'Gm13723', 'Fasn', 'Rpl22', 'Sema6a']
+Length: 3000
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:54:24,178 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 11:54:24,178 - INFO - (30000, 3000)
+2025-01-23 11:54:57,735 - INFO - Creating CellOracle object
+2025-01-23 11:54:58,136 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:54:58,136 - INFO - var indesx values: ['ENSMUSG00000029765' 'ENSMUSG00000047281' 'ENSMUSG00000005370' ...
+ 'ENSMUSG00000025153' 'ENSMUSG00000028936' 'ENSMUSG00000019647']
+2025-01-23 11:54:58,137 - INFO - new var index values: ['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', ..., 'Rgs6', 'Gm13723', 'Fasn', 'Rpl22', 'Sema6a']
+Length: 3000
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:54:58,138 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 11:54:58,138 - INFO - (30000, 3000)
+2025-01-23 11:54:58,140 - INFO - 3000
+2025-01-23 11:56:25,750 - INFO - Creating CellOracle object
+2025-01-23 11:56:26,164 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 11:56:26,164 - INFO - var indesx values: ['ENSMUSG00000029765' 'ENSMUSG00000047281' 'ENSMUSG00000005370' ...
+ 'ENSMUSG00000025153' 'ENSMUSG00000028936' 'ENSMUSG00000019647']
+2025-01-23 11:56:26,166 - INFO - new var index values: ['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', ..., 'Rgs6', 'Gm13723', 'Fasn', 'Rpl22', 'Sema6a']
+Length: 3000
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 11:56:26,167 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 11:56:26,167 - INFO - (30000, 3000)
+2025-01-23 11:56:26,170 - INFO - 3000
+2025-01-23 12:18:31,053 - INFO - Creating dict of genes with size: (65555, 9)
+2025-01-23 12:18:31,056 - INFO - Created dict of genes with size: 3000
+2025-01-23 12:18:31,056 - INFO - Creating gene column from promoter column
+2025-01-23 12:18:31,721 - INFO - Created gene column from promoter column
+2025-01-23 12:18:31,721 - INFO - subsetting the initial promoter gene list
+2025-01-23 12:18:31,721 - INFO - Subsetting the initial promoter gene list with original length: (65555, 10)
+2025-01-23 12:18:31,748 - INFO - Subsetting the initial promoter gene list with new length: (6171, 10)
+2025-01-23 12:18:31,748 - INFO - Creating peak id column in promoter dataset
+2025-01-23 12:18:31,767 - INFO - Created peak id column in promoter dataset
+2025-01-23 12:18:31,767 - INFO - Creating a set of TFs from the promoter column
+2025-01-23 12:18:31,826 - INFO - Created a set of TFs from the promoter column with size: 474
+2025-01-23 12:18:31,827 - INFO - Creating a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 12:18:32,244 - INFO - Created a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 12:18:32,277 - INFO - Filling the base grn
+2025-01-23 12:18:36,513 - INFO - Filled the base grn with shape: (6171, 950)
+2025-01-23 12:18:36,525 - INFO - Sample of base grn: 
+                    peak_id gene_short_name  Rxrg  Nr1i2  Pou3f3  Pax4  Etv5  \
+31064  chr1_3212989_3217988            Xkr4     0      0       0     0     0   
+31065  chr1_3668499_3673498            Xkr4     0      0       0     0     0   
+11034  chr1_4492480_4497479           Sox17     0      0       0     0     0   
+20290  chr1_5914399_5919398          Npbwr1     0      0       0     0     0   
+20258  chr1_6485281_6490280            St18     0      0       0     0     0   
+
+       Rfx1  Hlf  Foxl1  ...  nr1d1  rorc  barx1  msx1  msx2  msx3  hoxa7  \
+31064     0    0      0  ...    NaN   NaN    NaN   NaN   NaN   NaN    NaN   
+31065     0    0      0  ...    NaN   NaN    NaN   NaN   NaN   NaN    NaN   
+11034     0    0      0  ...    NaN   NaN    NaN   NaN   NaN   NaN    NaN   
+20290     0    0      0  ...    NaN   NaN    NaN   NaN   NaN   NaN    NaN   
+20258     0    0      0  ...    NaN   NaN    NaN   NaN   NaN   NaN    NaN   
+
+       hmga2  spic  zfp281  
+31064    NaN   NaN     NaN  
+31065    NaN   NaN     NaN  
+11034    NaN   NaN     NaN  
+20290    NaN   NaN     NaN  
+20258    NaN   NaN     NaN  
+
+[5 rows x 950 columns]
+2025-01-23 12:18:36,531 - INFO - Saving the base grn to a parquet file
+2025-01-23 12:18:36,971 - INFO - Saved the base grn to a parquet file
+2025-01-23 12:21:05,431 - INFO - Creating CellOracle object
+2025-01-23 12:21:05,844 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 12:21:05,844 - INFO - var indesx values: ['ENSMUSG00000029765' 'ENSMUSG00000047281' 'ENSMUSG00000005370' ...
+ 'ENSMUSG00000025153' 'ENSMUSG00000028936' 'ENSMUSG00000019647']
+2025-01-23 12:21:05,846 - INFO - new var index values: ['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', ..., 'Rgs6', 'Gm13723', 'Fasn', 'Rpl22', 'Sema6a']
+Length: 3000
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 12:21:05,847 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 12:21:05,847 - INFO - (30000, 3000)
+2025-01-23 12:21:05,849 - INFO - 3000
+2025-01-23 12:27:33,710 - INFO - Creating dict of genes with size: (65555, 9)
+2025-01-23 12:27:33,713 - INFO - Created dict of genes with size: 3000
+2025-01-23 12:27:33,713 - INFO - Creating gene column from promoter column
+2025-01-23 12:27:33,882 - INFO - Created gene column from promoter column
+2025-01-23 12:27:33,882 - INFO - subsetting the initial promoter gene list
+2025-01-23 12:27:33,882 - INFO - Subsetting the initial promoter gene list with original length: (65555, 10)
+2025-01-23 12:27:33,907 - INFO - Subsetting the initial promoter gene list with new length: (6171, 10)
+2025-01-23 12:27:33,907 - INFO - Creating peak id column in promoter dataset
+2025-01-23 12:27:33,926 - INFO - Created peak id column in promoter dataset
+2025-01-23 12:27:33,926 - INFO - Creating a set of TFs from the promoter column
+2025-01-23 12:27:33,947 - INFO - Created a set of TFs from the promoter column with size: 474
+2025-01-23 12:27:33,947 - INFO - Creating a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 12:27:34,369 - INFO - Created a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 12:27:34,394 - INFO - Filling the base grn
+2025-01-23 12:27:38,378 - INFO - Filled the base grn with shape: (6171, 476)
+2025-01-23 12:27:38,385 - INFO - Sample of base grn: 
+                    peak_id gene_short_name  esrrg  hoxd11  pknox2  mga  \
+31064  chr1_3212989_3217988            Xkr4      0       0       0    0   
+31065  chr1_3668499_3673498            Xkr4      0       0       0    0   
+11034  chr1_4492480_4497479           Sox17      0       0       0    0   
+20290  chr1_5914399_5919398          Npbwr1      0       0       0    0   
+20258  chr1_6485281_6490280            St18      0       0       0    0   
+
+       prrx1  foxa2  pou4f3  pgr  ...  nfix  trp53  stat2  rreb1  hif1a  myf6  \
+31064      0      0       0    0  ...     0      0      0      0      0     0   
+31065      0      0       0    0  ...     0      0      0      0      0     0   
+11034      0      0       0    0  ...     0      0      0      0      0     0   
+20290      0      0       0    0  ...     0      0      0      0      0     0   
+20258      0      0       0    0  ...     0      0      0      0      0     0   
+
+       pax9  mef2c  lhx2  irf1  
+31064     0      0     0     0  
+31065     0      0     0     0  
+11034     0      0     0     0  
+20290     0      0     0     0  
+20258     0      0     0     0  
+
+[5 rows x 476 columns]
+2025-01-23 12:27:38,391 - INFO - Saving the base grn to a parquet file
+2025-01-23 12:27:38,619 - INFO - Saved the base grn to a parquet file
+2025-01-23 12:37:21,756 - INFO - Creating dict of genes with size: (65555, 9)
+2025-01-23 12:37:21,759 - INFO - Created dict of genes with size: 3000
+2025-01-23 12:37:21,759 - INFO - Creating gene column from promoter column
+2025-01-23 12:37:21,926 - INFO - Created gene column from promoter column
+2025-01-23 12:37:21,926 - INFO - subsetting the initial promoter gene list
+2025-01-23 12:37:21,926 - INFO - Subsetting the initial promoter gene list with original length: (65555, 10)
+2025-01-23 12:37:21,951 - INFO - Subsetting the initial promoter gene list with new length: (6171, 10)
+2025-01-23 12:37:21,952 - INFO - Creating peak id column in promoter dataset
+2025-01-23 12:37:21,970 - INFO - Created peak id column in promoter dataset
+2025-01-23 12:37:21,970 - INFO - Creating a set of TFs from the promoter column
+2025-01-23 12:37:22,029 - INFO - Created a set of TFs from the promoter column with size: 474
+2025-01-23 12:37:22,029 - INFO - Creating a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 12:37:23,068 - INFO - Created a dictionary with peak id as keys and the values are lists of TFs
+2025-01-23 12:37:23,100 - INFO - Filling the base grn
+2025-01-23 12:37:27,097 - INFO - Filled the base grn with shape: (6171, 476)
+2025-01-23 12:37:27,105 - INFO - Sample of base grn: 
+                    peak_id gene_short_name  Rxrg  Nr1i2  Pou3f3  Pax4  Etv5  \
+31064  chr1_3212989_3217988            Xkr4     0      0       0     1     0   
+31065  chr1_3668499_3673498            Xkr4     0      0       0     1     0   
+11034  chr1_4492480_4497479           Sox17     0      0       0     0     0   
+20290  chr1_5914399_5919398          Npbwr1     0      0       0     0     0   
+20258  chr1_6485281_6490280            St18     1      0       0     0     0   
+
+       Rfx1  Hlf  Foxl1  ...  Olig3  Erf  Usf2  Zbtb14  Fos  Tbx3  Hoxc6  Sp8  \
+31064     0    0      0  ...      0    0     0       0    0     0      0    0   
+31065     0    0      0  ...      0    0     0       1    0     0      0    0   
+11034     0    0      0  ...      0    0     0       1    0     0      0    0   
+20290     0    0      0  ...      0    0     0       0    0     0      0    0   
+20258     0    0      0  ...      0    0     0       0    0     0      0    0   
+
+       Hes5  Dbp  
+31064     0    0  
+31065     0    0  
+11034     0    0  
+20290     0    0  
+20258     0    0  
+
+[5 rows x 476 columns]
+2025-01-23 12:37:27,111 - INFO - Saving the base grn to a parquet file
+2025-01-23 12:37:27,330 - INFO - Saved the base grn to a parquet file
+2025-01-23 12:39:33,060 - INFO - Creating CellOracle object
+2025-01-23 12:39:33,459 - INFO - var namesIndex(['ENSMUSG00000029765', 'ENSMUSG00000047281', 'ENSMUSG00000005370',
+       'ENSMUSG00000031452', 'ENSMUSG00000028023', 'ENSMUSG00000031734',
+       'ENSMUSG00000000031', 'ENSMUSG00000020850', 'ENSMUSG00000031633',
+       'ENSMUSG00000013089',
+       ...
+       'ENSMUSG00000073927', 'ENSMUSG00000029231', 'ENSMUSG00000097163',
+       'ENSMUSG00000037625', 'ENSMUSG00000022997', 'ENSMUSG00000021219',
+       'ENSMUSG00000086338', 'ENSMUSG00000025153', 'ENSMUSG00000028936',
+       'ENSMUSG00000019647'],
+      dtype='object', name='Gene', length=3000)
+2025-01-23 12:39:33,459 - INFO - var indesx values: ['ENSMUSG00000029765' 'ENSMUSG00000047281' 'ENSMUSG00000005370' ...
+ 'ENSMUSG00000025153' 'ENSMUSG00000028936' 'ENSMUSG00000019647']
+2025-01-23 12:39:33,461 - INFO - new var index values: ['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', ..., 'Rgs6', 'Gm13723', 'Fasn', 'Rpl22', 'Sema6a']
+Length: 3000
+Categories (3000, object): ['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1']
+2025-01-23 12:39:33,462 - INFO - new var index: CategoricalIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3',
+                  'H19', 'Prpf8', 'Slc25a4', 'Etv5',
+                  ...
+                  'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6',
+                  'Gm13723', 'Fasn', 'Rpl22', 'Sema6a'],
+                 categories=['1110051M20Rik', '1500015O10Rik', '1700007K13Rik', '1700016D06Rik', ..., 'Zic5', 'Zim1', 'Zmat3', 'Zmiz1'], ordered=False, dtype='category', name='Symbol', length=3000)
+2025-01-23 12:39:33,462 - INFO - (30000, 3000)
+2025-01-23 12:39:33,464 - INFO - 3000
+2025-01-23 14:18:18,698 - INFO - Creating CellOracle object
+2025-01-23 14:18:19,096 - INFO - var namesIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:18:19,096 - INFO - var indesx values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:18:19,096 - INFO - new var index values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:18:19,096 - INFO - new var index: Index(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:18:19,096 - INFO - (30000, 3000)
+2025-01-23 14:18:19,099 - INFO - 3000
+2025-01-23 14:20:54,350 - INFO - Creating CellOracle object
+2025-01-23 14:20:54,781 - INFO - var namesIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:20:54,782 - INFO - var indesx values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:20:54,782 - INFO - new var index values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:20:54,782 - INFO - new var index: Index(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:20:54,782 - INFO - (30000, 3000)
+2025-01-23 14:20:54,784 - INFO - 3000
+2025-01-23 14:36:58,970 - INFO - Creating CellOracle object
+2025-01-23 14:36:59,368 - INFO - var namesIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:36:59,368 - INFO - var indesx values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:36:59,368 - INFO - new var index values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:36:59,369 - INFO - new var index: Index(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:36:59,369 - INFO - (30000, 3000)
+2025-01-23 14:36:59,371 - INFO - 3000
+2025-01-23 14:42:08,005 - INFO - Creating CellOracle object
+2025-01-23 14:42:08,435 - INFO - var namesIndex(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:42:08,435 - INFO - var indesx values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:42:08,435 - INFO - new var index values: ['Plxna4' 'Sfn' 'Msh6' ... 'Fasn' 'Rpl22' 'Sema6a']
+2025-01-23 14:42:08,436 - INFO - new var index: Index(['Plxna4', 'Sfn', 'Msh6', '1700029H14Rik', 'Pitx2', 'Irx3', 'H19',
+       'Prpf8', 'Slc25a4', 'Etv5',
+       ...
+       'Olfr652', 'Pdgfra', 'BC051077', 'Cldn11', 'Wnt1', 'Rgs6', 'Gm13723',
+       'Fasn', 'Rpl22', 'Sema6a'],
+      dtype='object', name='Symbol', length=3000)
+2025-01-23 14:42:08,436 - INFO - (30000, 3000)
+2025-01-23 14:42:08,438 - INFO - 3000
+2025-01-23 15:14:45,485 - INFO - Creating CellOracle object
+2025-01-23 15:16:33,721 - INFO - Creating CellOracle object
+2025-01-23 15:22:48,304 - INFO - Creating CellOracle object
+2025-01-23 15:23:22,421 - INFO - Creating CellOracle object
+2025-01-23 15:24:59,966 - INFO - Creating CellOracle object
+2025-01-23 15:25:59,416 - INFO - Creating CellOracle object
+2025-01-23 15:27:10,450 - INFO - Creating CellOracle object
+2025-01-23 15:28:14,112 - INFO - Creating CellOracle object
+2025-01-23 16:17:13,854 - INFO - Creating CellOracle object
+2025-01-23 22:22:03,892 - INFO - Creating CellOracle object
+2025-01-23 22:31:09,611 - INFO - Creating CellOracle object
+2025-01-23 22:34:53,888 - INFO - Creating CellOracle object
+2025-01-23 22:37:32,750 - INFO - Creating CellOracle object
+2025-01-23 23:14:21,001 - INFO - Creating CellOracle object

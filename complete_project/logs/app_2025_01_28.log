@@ -1,0 +1,174 @@
+2025-01-28 10:56:07,774 - WARNING - Matplotlib is building the font cache; this may take a moment.
+2025-01-28 10:56:08,630 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Can not load face (unknown file format; error code 0x2)
+2025-01-28 11:15:22,486 - INFO - Analysis object created, performing anaylsis
+2025-01-28 11:20:07,363 - INFO - Analysis object created, performing anaylsis
+2025-01-28 11:30:21,781 - INFO - Analysis object created, performing anaylsis
+2025-01-28 11:32:05,992 - INFO - Analysis object created, performing anaylsis
+2025-01-28 11:35:52,500 - INFO - Analysis object created, performing anaylsis
+2025-01-28 11:35:56,940 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:02:22,855 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:02:26,789 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:06:29,211 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:06:32,979 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:06:35,773 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:11:44,233 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:11:48,103 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:11:50,921 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:12:49,642 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:12:52,903 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:12:55,647 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:14:41,056 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:16:38,941 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:18:35,090 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:18:45,989 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:18:48,771 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:19:26,754 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:19:42,804 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:19:46,589 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:22:52,400 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:23:24,534 - INFO - ['(early) Somite', '(pre)Somitic/Wavefront', 'Cardiac Mesoderm', 'Cardiomyocytes', 'Caudal Epiblast', 'Caudal Mesoderm', 'Dermomyotome', 'Early Motor Neurons', 'Endothelium', 'Epiblast', 'Epidermis Progenitors', 'Erythrocytes', 'ExE Endoderm', 'Floor Plate Neural Tube', 'LP/Intermediate Mesoderm', 'Late Motor Neurons', 'Megakaryocytes', 'Myotome', 'NMPs', 'Naive PGCs', 'Nascent Mesoderm', 'Neural Progenitors', 'PGCs', 'Parietal Endoderm', 'Pharyngeal Mesoderm', 'Primitive Streak', 'Reprogramming PGCs', 'Roof Plate Neural Tube', 'Sclerotome', 'Visceral Endoderm', 'mESCs']
+2025-01-28 12:23:33,313 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:31:11,224 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:32:49,483 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:33:32,635 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:37:11,766 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:37:57,739 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 12:46:31,163 - INFO - Analysis object created, performing anaylsis
+2025-01-28 12:47:18,897 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:08:01,455 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:08:50,871 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:09:37,594 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:11:11,750 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:11:59,513 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:12:55,812 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:13:43,580 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:15:06,220 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:15:54,148 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:19:28,858 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:20:17,190 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:21:45,740 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:22:33,878 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:32:06,223 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:33:01,097 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:36:23,556 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:37:06,739 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:38:08,209 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:38:51,597 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:39:38,670 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:40:21,283 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 14:57:16,215 - INFO - Analysis object created, performing anaylsis
+2025-01-28 14:57:59,123 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 15:10:22,772 - INFO - Analysis object created, performing anaylsis
+2025-01-28 15:11:05,178 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
+2025-01-28 15:12:23,215 - INFO - Analysis object created, performing anaylsis
+2025-01-28 15:13:06,124 - INFO -         source         target  coef_mean  coef_abs             p      -logp
+13725     Klf4          Igf2r  -0.479368  0.479368  9.894096e-20  19.004624
+1430     Snai2         Adora1   0.433238  0.433238  6.334208e-14  13.198308
+464    Creb3l1  5430434I15Rik   0.379446  0.379446  2.475970e-17  16.606255
+11417     Atf3        Gm35097   0.366478  0.366478  5.586407e-21  20.252867
+4124     Hand1        Ccdc141   0.343132  0.343132  6.176732e-20  19.209241
