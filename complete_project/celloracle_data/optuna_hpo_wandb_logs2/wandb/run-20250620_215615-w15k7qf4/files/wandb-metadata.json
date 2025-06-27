@@ -1,0 +1,46 @@
+{
+  "os": "Linux-6.8.0-39-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.17",
+  "startedAt": "2025-06-20T19:56:15.057065Z",
+  "program": "<python with no main file>",
+  "git": {
+    "remote": "https://github.com/CBannink/thesis_code_v2.git",
+    "commit": "eca1bc4f7b06269572b931d1dda7eebcc5f866bc"
+  },
+  "email": "caspar.christiaan@gmail.com",
+  "root": "../celloracle_data/optuna_hpo_wandb_logs2",
+  "host": "binfgpu9.bio.uu.nl",
+  "executable": "/home/caspar/miniconda3/envs/gpu_cell_oracle/bin/python",
+  "cpu_count": 36,
+  "cpu_count_logical": 72,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "157396975616",
+      "used": "81514164224"
+    }
+  },
+  "memory": {
+    "total": "539756937216"
+  },
+  "cpu": {
+    "count": 36,
+    "countLogical": 72
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.5"
+}

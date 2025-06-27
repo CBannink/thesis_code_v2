@@ -1,0 +1,143 @@
+_wandb:
+    value:
+        cli_version: 0.19.10
+        m: []
+        python_version: 3.10.17
+        t:
+            "1":
+                - 1
+                - 5
+                - 35
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 35
+                - 53
+                - 55
+            "3":
+                - 2
+                - 13
+                - 16
+                - 23
+                - 35
+                - 55
+                - 62
+            "4": 3.10.17
+            "5": 0.19.10
+            "8":
+                - 1
+                - 5
+            "10":
+                - 20
+            "12": 0.19.10
+            "13": linux-x86_64
+ACTIVATION_FN:
+    value: torch.nn.modules.activation.ReLU
+ALLOW_GENE_ACTIVATION:
+    value: true
+BATCH_SIZE:
+    value: 128
+CLIP_RANGE:
+    value: 0.11742508365045984
+DEVICE:
+    value: auto
+DISTANCE_GAMMA:
+    value: 0.959091248360355
+DISTANCE_REWARD_SCALE:
+    value: 40.26819266566601
+DIVIDER_OF_TOTAL_STEPS_FOR_CURRICULUM_LEARNING:
+    value: 20
+ENT_COEF:
+    value: 0.025985284373248055
+FAIL_PENALTY:
+    value: -4.907369775668889
+GAE_LAMBDA:
+    value: 0.95
+GAMMA:
+    value: 0.991421185223121
+GENE_ACTIVITY_THRESHOLD:
+    value: 0.01
+GOAL_BONUS:
+    value: 24.398197043239886
+HPO_FIXED_MAX_STEPS_PER_EPISODE:
+    value: 30
+LEARNING_RATE:
+    value: 7.106591851092232e-05
+LOG_DIR:
+    value: ../celloracle_data/optuna_hpo_logs2/trial_0
+LOG_DIR_BASE:
+    value: ../celloracle_data/optuna_hpo_logs2
+LOG_INTERVAL:
+    value: 10
+MAX_GRAD_NORM:
+    value: 0.5
+MAX_STEP_INCREASE_PER_PHASE:
+    value: 8
+MAX_STEPS_FIRST_PHASE:
+    value: 50000
+MAX_STEPS_PER_EPISODE:
+    value: 36
+MODEL_SAVE_PATH:
+    value: ../celloracle_data/optuna_hpo_models2/trial_0
+MODEL_SAVE_PATH_BASE:
+    value: ../celloracle_data/optuna_hpo_models2
+ORACLE_PATH:
+    value: ../celloracle_data/celloracle_object/new_promoter_without_mescs_trimmed_test_own_umap/ready_oracle.pkl
+PARAMETER_TUNING:
+    value: true
+PHASE_STEP_INCREASE:
+    value: 15000
+PI_ARCH:
+    value:
+        - 512
+        - 256
+PPO_N_EPOCHS:
+    value: 7
+PPO_N_STEPS:
+    value: 128
+RESET_NUM_TIMESTEPS:
+    value: false
+SAME_CELL_PENALTY:
+    value: -0.9188933979989455
+STANDARD_SD_FACTOR:
+    value: 1.5
+STEP_PENALTY:
+    value: -0.06546621021875138
+STEP_SAVE_FREQ:
+    value: 1000000000
+TARGET_CELLS_PER_PHASE:
+    value: 10
+TARGET_DISTANCE_THRESHOLD:
+    value: 0.1
+TOTAL_TIMESTEPS:
+    value: 1000000
+TOTAL_TIMESTEPS_HPO:
+    value: 1000000
+USE_LEARNING_RATE_SCHEDULE:
+    value: false
+USE_MASKABLE_PPO:
+    value: false
+USE_NEW_INPUT:
+    value: true
+USE_PREV_KNOCKOUT:
+    value: true
+USE_PROGRESS_BAR:
+    value: false
+USE_SIMILARITY_REWARD:
+    value: true
+VERBOSE:
+    value: 0
+VF_ARCH:
+    value:
+        - 512
+        - 256
+VF_COEF:
+    value: 0.5
+WAND_B_LOG_DIR_BASE:
+    value: ../celloracle_data/optuna_hpo_wandb_logs2
+WANDB_RUN_NAME:
+    value: t0_lr7.1e-05_ent0.03
+optuna_trial_obj:
+    value: <optuna.trial._trial.Trial object at 0x702f4dd85420>

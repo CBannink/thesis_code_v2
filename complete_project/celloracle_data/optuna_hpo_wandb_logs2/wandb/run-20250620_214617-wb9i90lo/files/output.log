@@ -1,0 +1,36 @@
+--- Starting Training Run ---
+Configuration: {'ORACLE_PATH': '../celloracle_data/celloracle_object/new_promoter_without_mescs_trimmed_test_own_umap/ready_oracle.pkl', 'MODEL_SAVE_PATH_BASE': '../celloracle_data/optuna_hpo_models2', 'LOG_DIR_BASE': '../celloracle_data/optuna_hpo_logs2', 'WAND_B_LOG_DIR_BASE': '../celloracle_data/optuna_hpo_wandb_logs2', 'HPO_FIXED_MAX_STEPS_PER_EPISODE': 30, 'BATCH_SIZE': 128, 'USE_MASKABLE_PPO': False, 'VERBOSE': 0, 'LOG_INTERVAL': 10, 'RESET_NUM_TIMESTEPS': False, 'DEVICE': 'auto', 'USE_PROGRESS_BAR': False, 'STEP_SAVE_FREQ': 1000000000, 'PPO_N_STEPS': 128, 'PPO_N_EPOCHS': 7, 'GAMMA': 0.991421185223121, 'GAE_LAMBDA': 0.95, 'CLIP_RANGE': 0.11742508365045984, 'ENT_COEF': 0.025985284373248055, 'VF_COEF': 0.5, 'MAX_GRAD_NORM': 0.5, 'LEARNING_RATE': 7.106591851092232e-05, 'ALLOW_GENE_ACTIVATION': True, 'STANDARD_SD_FACTOR': 1.5, 'USE_LEARNING_RATE_SCHEDULE': False, 'USE_SIMILARITY_REWARD': True, 'USE_NEW_INPUT': True, 'USE_PREV_KNOCKOUT': True, 'DIVIDER_OF_TOTAL_STEPS_FOR_CURRICULUM_LEARNING': 20, 'TARGET_CELLS_PER_PHASE': 10, 'MAX_STEP_INCREASE_PER_PHASE': 8, 'MAX_STEPS_FIRST_PHASE': 50000, 'PHASE_STEP_INCREASE': 15000, 'MAX_STEPS_PER_EPISODE': 36, 'GENE_ACTIVITY_THRESHOLD': 0.01, 'TARGET_DISTANCE_THRESHOLD': 0.1, 'DISTANCE_GAMMA': 0.959091248360355, 'STEP_PENALTY': -0.06546621021875138, 'GOAL_BONUS': 24.398197043239886, 'FAIL_PENALTY': -4.907369775668889, 'SAME_CELL_PENALTY': -0.9188933979989455, 'DISTANCE_REWARD_SCALE': 40.26819266566601, 'PARAMETER_TUNING': True, 'TOTAL_TIMESTEPS_HPO': 1000000, 'PI_ARCH': [512, 256], 'VF_ARCH': [512, 256], 'ACTIVATION_FN': <class 'torch.nn.modules.activation.ReLU'>, 'MODEL_SAVE_PATH': '../celloracle_data/optuna_hpo_models2/trial_0', 'LOG_DIR': '../celloracle_data/optuna_hpo_logs2/trial_0', 'WANDB_RUN_NAME': 't0_lr7.1e-05_ent0.03', 'optuna_trial_obj': <optuna.trial._trial.Trial object at 0x702e71794460>, 'TOTAL_TIMESTEPS': 1000000}
+Initializing CellOracleCustomEnv with batch_size=128...
+CuPy is available and GPU is accessible.
+AnnData object with n_obs × n_vars = 30000 × 3000
+    obs: 'bc_idx', 'colnames', 'obs_names', 'celltype', 'celltype_general'
+    var: 'rownames', 'mean', 'std', 'symbol', 'isin_top1000_var_mean_genes', 'isin_TFdict_targets', 'isin_TFdict_regulators', 'isin_actve_regulators'
+    uns: 'celltype_colors', 'neighbors', 'pca', 'umap', 'umap_neighbors_sparse'
+    obsm: 'X_pca', 'X_umap', 'colnames_factor', 'umap_neighbors'
+    varm: 'PCs'
+    layers: 'chic', 'raw_chich_counts', 'raw_count', 'unspliced_spliced', 'normalized_count', 'imputed_count', 'simulation_input'
+    obsp: 'connectivities', 'distances', 'umap_neighbors_sparse'
+Finished calculating activation values for 108 genes.
+obs space size:  358
+get attribute called with name:  render_mode
+get attribute called with indices:  None
+Number of celltypes:  30  so without pcgs we have  27  targets
+Policy architecture: {'net_arch': {'pi': [512, 256], 'vf': [512, 256]}, 'activation_fn': <class 'torch.nn.modules.activation.ReLU'>}
+Agent (PPO) instantiated with architecture: {'pi': [512, 256], 'vf': [512, 256]}
+Starting training for 1000000 timesteps...
+Optuna Trial 0 FAILED with exception: VecEnv.reset() got an unexpected keyword argument 'seed'
+Traceback (most recent call last):
+  File "/home/caspar/thesis_code/complete_project/py files/AIFiles/ParameterTuning.py", line 71, in objective
+    trained_model = ai_module.run_training(trial_config)
+  File "/home/caspar/thesis_code/complete_project/py files/AIFiles/AI.py", line 169, in run_training
+    model.learn(
+  File "/home/caspar/miniconda3/envs/gpu_cell_oracle/lib/python3.10/site-packages/stable_baselines3/ppo/ppo.py", line 311, in learn
+    return super().learn(
+  File "/home/caspar/miniconda3/envs/gpu_cell_oracle/lib/python3.10/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 311, in learn
+    total_timesteps, callback = self._setup_learn(
+  File "/home/caspar/miniconda3/envs/gpu_cell_oracle/lib/python3.10/site-packages/stable_baselines3/common/base_class.py", line 424, in _setup_learn
+    self._last_obs = self.env.reset()  # type: ignore[assignment]
+  File "/home/caspar/thesis_code/complete_project/py files/AIFiles/Env_with_new_input.py", line 182, in reset
+    """Resets this environment."""
+TypeError: VecEnv.reset() got an unexpected keyword argument 'seed'
+Finishing W&B run for trial 0 (Status: failed)

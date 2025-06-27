@@ -955,6 +955,33 @@ class CellOracleSB3VecEnv(VecEnv): # Inherit from SB3 VecEnv
         self.max_steps = max_steps
         self.wandb_run_id = wandb_id
         self.wandb_run_name = wandb_name
+
+    def is_curriculum_finished(self) -> bool:
+        """
+        Checks if the current phase has reached the maximum number of curriculum phases.
+        """
+        return self.current_phase >= len(self.total_curriculum_targets)
+
+    def get_current_goal_reached_percentage(self) -> float:
+        """
+        Returns the percentage of goals reached in the current phase.
+        """
+        if self.number_of_episodes_started_overal == 0:
+            return 0.0
+        return (self.number_of_goal_reached / self.number_of_episodes_started_overal) * 100.0
+
+    def get_action_details(self, action_idx: int) -> str:
+        """Converts an action index to a human-readable string."""
+        if not (0 <= action_idx < self.action_space_size):
+            return f"INVALID_ACTION_IDX_{action_idx}"
+
+        if action_idx < self.number_of_reg_genes:
+            gene_name = self.genes_that_can_be_perturbed[action_idx]
+            return f"KO_{gene_name}"
+        else:
+            gene_index_in_list = action_idx - self.number_of_reg_genes
+            gene_name = self.genes_that_can_be_perturbed[gene_index_in_list]
+            return f"Activate_{gene_name}"
         
 
 

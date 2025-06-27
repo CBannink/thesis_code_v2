@@ -11,6 +11,8 @@ from sklearn.preprocessing import StandardScaler
 from stable_baselines3.common.vec_env import VecEnv
 import math
 import time
+from sklearn.preprocessing import MinMaxScaler
+
 ###INFO:
 # 1) CURRENTLY WE ONLY USE THE KNOCKOUTS, NOT THE ACTIVATIONS,
 # 2) THE REWARDS ARE VERY SIMPLE ->WE IMPLEMENTED SAME CELL INDICES TRAKCING THOUGH
@@ -38,7 +40,9 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         self.wandb_run_name = None
         self.check_path(oracle_path)  # Check path early
         self.cupy_integration_use = False  # Set to True if using CuPy
-        self.number_of_episodes_started = 0
+        self.number_of_episodes_started_completed = 0
+        self.number_of_episodes_started_overal=0
+        self.number_of_goal_reached = 0
 
         try:
             cp.cuda.Device(0).use()
@@ -124,8 +128,9 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
     def _create_normalized_embedding_coordinates(self) -> np.ndarray:
         umap = self.oracle.adata.obsm[self.embedding_name].copy()
         # normalize the coords
-        scaler = StandardScaler()
+        scaler = MinMaxScaler(feature_range=(-1, 1))
         umap = scaler.fit_transform(umap)
+        print("UMAP coordinates normalized with StandardScaler with amx: ", np.max(umap), " and min: ", np.min(umap))
         return umap
 
     def set_wandb_id(self, wandb_run_id: str, wandb_run_name: str):
@@ -177,7 +182,6 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
 
 
     def reset(self) -> Dict[str, np.ndarray]:
-        """Resets this environment."""
         rng = np.random.default_rng(
             self._np_random_seed if hasattr(self, "_np_random_seed") and self._np_random_seed is not None else None)
 
@@ -199,6 +203,30 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         self.current_episode_start_times[:] = time.time()
         self.knockout_histories.fill(0.0)
 
+        return self._get_obs()
+
+
+    def reset_for_inference(self, start_idx: int, target_name: str) -> Dict[str, np.ndarray]:
+        """
+        Manually resets the (single) environment to a specific start/target for inference.
+        Assumes num_envs = 1.
+        """
+        if self.num_envs > 1:
+            print("Warning: reset_for_inference is designed for a single environment (num_envs=1).")
+        
+        # Reset common state
+        self.current_steps.fill(0)
+        self.current_episode_rewards.fill(0.0)
+        self.current_episode_lengths.fill(0)
+        self.current_episode_start_times[:] = time.time()
+        if hasattr(self, 'knockout_histories'):
+            self.knockout_histories.fill(0.0)
+        self.oracle.reset_info_during_training_for_batch_instance(np.arange(self.num_envs))
+        
+        # Set the specific state
+        self.current_cell_indices[0] = start_idx
+        self.current_target_cell_types[0] = target_name
+    
         return self._get_obs()
 
     def step_async(self, actions: np.ndarray) -> None:
@@ -300,9 +328,10 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         self.current_cell_indices = new_cell_indices
         self.current_steps += 1
 
-        celltypes_of_new_indices = self.oracle.adata[new_cell_indices].obs['celltype']
+        celltypes_of_new_indices = self.oracle.adata[new_cell_indices].obs['celltype'].to_numpy()
         # TODO NAAR DEZE STATEMENT KIJKEN
         goal_reached_mask = celltypes_of_new_indices == self.current_target_cell_types
+
 
 
 
@@ -321,6 +350,8 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         self.current_episode_lengths += 1
         dones[is_timeout_mask] = True
         dones[goal_reached_mask] = True
+        done_and_goal = goal_reached_mask & dones
+        self.number_of_goal_reached += np.sum(done_and_goal)
         # same for here, first do timeout, then overwrite with goal reached
         truncations[is_timeout_mask] = True
         truncations[goal_reached_mask] = False
@@ -364,7 +395,7 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
 
     def _handle_batch_resets(self, dones: np.ndarray) -> None:
         """
-        FFS  I NEED TO HANDLE OWN RESET BECAUSE OF THIS ENVIORNMENT SALFDJ;SFHA
+          I NEED TO HANDLE OWN RESET BECAUSE OF THIS ENVIORNMENT
         handles batch instances reset!
         """
         reset_indices = np.where(dones)[0]
@@ -389,7 +420,8 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         self.knockout_histories[reset_indices, :] = 0.0  # Reset knockout history for these envs
         # reset the oracle info for the batch instance
         self.oracle.reset_info_during_training_for_batch_instance(reset_indices)
-        self.number_of_episodes_started += num_to_reset
+        self.number_of_episodes_started_completed += num_to_reset
+        self.number_of_episodes_started_overal += num_to_reset
 
     def _reward_system_distance_calc(self, next_indices_after_perturb: np.ndarray) -> np.ndarray:
         """
@@ -480,7 +512,7 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
             if target_cell_types is not None:
                 info_dict_per_env["batch_diversity/target_cell_types_unique_in_batch"] = unique_target_cell_types
             if percentage_of_activation is not None:
-                info_dict_per_env["percentage_of_activation"] = percentage_of_activation
+                info_dict_per_env["step_avg/percentage_of_activation"] = percentage_of_activation
             if is_done[i]:
                 final_info_payload = {
                     "steps": self.max_steps if truncated[i] else self.current_steps[i],
@@ -677,7 +709,10 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
             raise ValueError(f"Current state vectors shape mismatch: {current_state_vecs.shape} vs {self.num_envs}")
         if steps_left.shape[0] != self.num_envs:
             raise ValueError(f"Steps left shape mismatch: {steps_left.shape} vs {self.num_envs}")
-
+        print("Max value of current state vectors:", np.max(current_state_vecs[0]), "Min value of current state vectors:", np.min(current_state_vecs[0]))
+        print("Max value of target state one hot vectors:", np.max(target_state_one_hot_vectors), "Min value of target state one hot vectors:", np.min(target_state_one_hot_vectors))
+        print("Max value of current UMAP coordinates:", np.max(current_umap_coordinates[0]), "Min value of current UMAP coordinates:", np.min(current_umap_coordinates[0]))
+        print("Max value of target UMAP coordinates:", np.max(target_umap_coordinates[0]), "Min value of target UMAP coordinates:", np.min(target_umap_coordinates[0]))
         return {
             "current_state": current_state_vecs,
             "current_umap_coordinates": current_umap_coordinates,
@@ -688,123 +723,6 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
             # "knockout_history": self.knockout_histories.astype(np.int8)
         }
 
-    def action_masks(self, attr_called: bool = False) -> np.ndarray:
-        print("mask function called!!!")
-        if not attr_called:
-            # do nothing?
-            pass
-        return np.ones((self.num_envs, self.action_space_size), dtype=bool)
-
-        """
-        Returns boolean masks for valid actions.
-        True = valid action, False = invalid action.
-        Shape: (num_envs, action_space_size)
-        """
-        # --- Basic Check: Ensure environment state is ready ---
-        if not hasattr(self, 'oracle') or not hasattr(self.oracle, 'adata') or \
-                self.current_cell_indices is None or len(self.current_cell_indices) != self.num_envs:
-            # Return all True if state is not ready, allowing any action
-            print("Warning: Action mask called before env ready. Returning all True.")
-            # Size needs to match the full action space
-            return np.ones((self.num_envs, self.action_space_size), dtype=bool)
-        # --- End Basic Check ---
-
-        # Initialize mask based on action space size
-        # Start with all False, explicitly enable valid actions
-        masks = np.zeros((self.num_envs, self.action_space_size), dtype=bool)
-
-        # --- Determine Valid Knockout Actions (Actions 0 to N-1) ---
-        try:
-            # Get expression data only for valid cells and relevant genes
-            valid_indices_mask = (self.current_cell_indices >= 0) & (
-                        self.current_cell_indices < self.oracle.adata.n_obs)
-            valid_current_indices = self.current_cell_indices[valid_indices_mask]
-
-            if len(valid_current_indices) > 0:  # Proceed only if there are valid cells
-                # Use the Oracle helper method (assuming it returns NumPy or compatible sparse)
-                current_states_reg_genes = self.oracle.get_AI_input_for_cell_indices(
-                    valid_current_indices, self.reg_gene_adata_indices
-                )
-                # Ensure dense for easier processing here
-                if issparse(current_states_reg_genes):
-                    current_states_reg_genes = current_states_reg_genes.toarray()
-                elif not isinstance(current_states_reg_genes, np.ndarray):
-                    current_states_reg_genes = np.asarray(current_states_reg_genes)
-
-                # Get the corresponding indices within the batch (0 to num_envs-1)
-                env_indices = np.where(valid_indices_mask)[0]
-
-                # Iterate through VALID environments/cells
-                for idx_in_batch, env_idx in enumerate(env_indices):
-                    # Get expression for this specific valid cell
-                    cell_expression_vector = current_states_reg_genes[idx_in_batch, :]
-
-                    # Iterate through possible knockout actions (0 to N-1)
-                    for gene_idx in range(self.number_of_reg_genes):
-                        expression_level = cell_expression_vector[gene_idx]
-                        already_knocked_out = self.knockout_histories[env_idx, gene_idx]
-
-                        # Knockout valid if expression >= threshold AND not already knocked out
-                        if expression_level >= self.gene_activity_threshold and not already_knocked_out:
-                            knockout_action_idx = gene_idx  # Action index for knockout is just gene_idx
-                            masks[env_idx, knockout_action_idx] = True  # Enable this knockout
-
-        except Exception as e:
-            print(f"Error calculating KNOCKOUT action masks: {e}. Knockouts might be masked incorrectly.")
-            # Decide how to handle: maybe allow all knockouts? Or keep them False?
-            # Keeping them False might be safer if expression check failed.
-        # --- End Knockout Masking ---
-
-        # --- Determine Valid Activation Actions (Actions N to 2N-1) ---
-        if self._allow_gene_activation:
-            try:
-                # Simplest Rule: Allow activation for any perturbable gene for all valid envs
-                activation_start_idx = self.number_of_reg_genes
-                activation_end_idx = self.action_space_size
-
-                # Get indices of valid environments again (safer in case of errors above)
-                valid_indices_mask = (self.current_cell_indices >= 0) & (
-                            self.current_cell_indices < self.oracle.adata.n_obs)
-                env_indices = np.where(valid_indices_mask)[0]
-
-                # Enable activation actions only for valid environments
-                masks[env_indices, activation_start_idx:activation_end_idx] = True
-
-                # --- Optional Refinement (Example: Activate if below threshold) ---
-                # Uncomment and adapt if you want rules for activation
-                # if len(valid_current_indices) > 0: # Need expression data again
-                #     # current_states_reg_genes should still be available from knockout section if no errors
-                #     for idx_in_batch, env_idx in enumerate(env_indices):
-                #         cell_expression_vector = current_states_reg_genes[idx_in_batch, :]
-                #         for gene_idx in range(self.number_of_reg_genes):
-                #             activation_action_idx = gene_idx + self.number_of_reg_genes
-                #             expression_level = cell_expression_vector[gene_idx]
-                #             # Example: Only allow activation if expression is below threshold
-                #             if expression_level < self.gene_activity_threshold:
-                #                 masks[env_idx, activation_action_idx] = True
-                #             else:
-                #                 masks[env_idx, activation_action_idx] = False # Explicitly disable if rule not met
-                # --- End Optional Refinement ---
-
-            except Exception as e:
-                print(f"Error calculating ACTIVATION action masks: {e}. Activations might be masked incorrectly.")
-                # Default to False for safety if calculation fails
-                masks[:, self.number_of_reg_genes:] = False
-        # --- End Activation Masking ---
-
-        # --- Sanity Check: Ensure at least one action possible per *valid* env ---
-        valid_indices_mask = (self.current_cell_indices >= 0) & (self.current_cell_indices < self.oracle.adata.n_obs)
-        env_indices = np.where(valid_indices_mask)[0]
-        if len(env_indices) > 0:  # Only check if there are valid environments
-            valid_action_exists = np.any(masks[env_indices, :], axis=1)
-            if not np.all(valid_action_exists):
-                stuck_envs = env_indices[~valid_action_exists]  # Get original env indices
-                print(f"Warning: Valid environments {stuck_envs.tolist()} have NO valid actions according to the mask!")
-                # Optional: Force at least one action (e.g., first knockout) for stuck envs
-                # masks[stuck_envs, 0] = True
-        # --- End Sanity Check ---
-        print("action mask shape: ", masks.shape)
-        return masks
 
     def _compute_average_umap_coordinates(self) -> Tuple[Dict[str, np.ndarray], Dict[str, np.ndarray]]:
         """
@@ -825,16 +743,16 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         if not start_with_pgcs:
             if self.average_umap_coordinates is None:
                 raise ValueError("Average UMAP coordinates not computed. Call _compute_average_umap_coordinates first.")
-            number_of_phases = (len(self.celltypes) // number_of_targets) + 1  # do +1 to include any leftovers
+            number_of_phases = (len(self.celltypes) // number_of_targets) + 1
             total_curriculum_targets = []
-            for phase in range(1, number_of_phases + 1):  # again +1 because we need to start at 1
+            for phase in range(1, number_of_phases + 1):
                 phase_targets = self._compute_nearest_celltype_targets(phase, number_of_targets)
                 total_curriculum_targets.append(phase_targets)
             return total_curriculum_targets
 
-        number_of_phases = math.ceil (len(self.celltypes) / number_of_targets) + 1  # do +1 to include any leftovers
+        number_of_phases = math.ceil (len(self.celltypes) / number_of_targets) + 1
         total_curriculum_targets = []
-        for phase in range(1, number_of_phases + 1):  # again +1 because we need to start at 1
+        for phase in range(1, number_of_phases + 1):
             phase_targets = self._compute_nearest_celltype_targets_only_pgcs(phase, number_of_targets)
             total_curriculum_targets.append(phase_targets)
         return total_curriculum_targets
@@ -855,13 +773,11 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
             average_coord_celltype = self.average_umap_coordinates[celltype]
             distances = []
             for other_celltype in self.celltypes:
-                # DO NOT INCLUDE ITSELF
                 if celltype != other_celltype:
                     average_coord_other_celltype = self.average_umap_coordinates[other_celltype]
                     distance = np.linalg.norm(average_coord_celltype - average_coord_other_celltype)
                     distances.append((other_celltype, distance))
 
-            # sort
             distances.sort(key=lambda x: x[1])
             # now choose the clostest one according to phase
             # get rid of the current celltype as this is not relevant
@@ -951,7 +867,7 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         """
         Set the current phase for curriculum learning, done by a callback given to the ppo trainer
         """
-        if phase < 1 or phase >= len(self.total_curriculum_targets):
+        if phase > len(self.total_curriculum_targets):
             # not needed to do anything, just keep current phase
             return False
         phase_diff = phase - self.current_phase  # when setting it from saved file, we need to implement a phase diff
@@ -984,6 +900,33 @@ class CellOracleSB3VecEnv(VecEnv):  # Inherit from SB3 VecEnv
         self.max_steps = max_steps
         self.wandb_run_id = wandb_id
         self.wandb_run_name = wandb_name
+
+    def is_curriculum_finished(self) -> bool:
+        """
+        Checks if the current phase has reached the maximum number of curriculum phases.
+        """
+        return self.current_phase >= len(self.total_curriculum_targets)
+
+    def get_current_goal_reached_percentage(self) -> float:
+        """
+        Returns the percentage of goals reached in the current phase.
+        """
+        if self.number_of_episodes_started_overal == 0:
+            return 0.0
+        return (self.number_of_goal_reached / self.number_of_episodes_started_overal) * 100.0
+
+    def get_action_details(self, action_idx: int) -> str:
+        """Converts an action index to a human-readable string."""
+        if not (0 <= action_idx < self.action_space_size):
+            return f"INVALID_ACTION_IDX_{action_idx}"
+
+        if action_idx < self.number_of_reg_genes:
+            gene_name = self.genes_that_can_be_perturbed[action_idx]
+            return f"KO_{gene_name}"
+        else:
+            gene_index_in_list = action_idx - self.number_of_reg_genes
+            gene_name = self.genes_that_can_be_perturbed[gene_index_in_list]
+            return f"Activate_{gene_name}"
 
 
 

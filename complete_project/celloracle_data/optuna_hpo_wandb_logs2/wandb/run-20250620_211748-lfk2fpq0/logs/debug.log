@@ -1,0 +1,35 @@
+2025-06-20 21:17:48,463 INFO    MainThread:1272608 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-06-20 21:17:48,463 INFO    MainThread:1272608 [wandb_setup.py:_flush():68] Configure stats pid to 1272608
+2025-06-20 21:17:48,464 INFO    MainThread:1272608 [wandb_setup.py:_flush():68] Loading settings from /home/caspar/.config/wandb/settings
+2025-06-20 21:17:48,464 INFO    MainThread:1272608 [wandb_setup.py:_flush():68] Loading settings from /home/caspar/thesis_code/complete_project/notebooks/wandb/settings
+2025-06-20 21:17:48,464 INFO    MainThread:1272608 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-06-20 21:17:48,464 INFO    MainThread:1272608 [wandb_init.py:setup_run_log_directory():724] Logging user logs to ../celloracle_data/optuna_hpo_wandb_logs2/wandb/run-20250620_211748-lfk2fpq0/logs/debug.log
+2025-06-20 21:17:48,464 INFO    MainThread:1272608 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to ../celloracle_data/optuna_hpo_wandb_logs2/wandb/run-20250620_211748-lfk2fpq0/logs/debug-internal.log
+2025-06-20 21:17:48,464 INFO    MainThread:1272608 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x702f3ece2aa0>
+2025-06-20 21:17:48,492 INFO    MainThread:1272608 [wandb_init.py:init():852] calling init triggers
+2025-06-20 21:17:48,492 INFO    MainThread:1272608 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'ORACLE_PATH': '../celloracle_data/celloracle_object/new_promoter_without_mescs_trimmed_test_own_umap/ready_oracle.pkl', 'MODEL_SAVE_PATH_BASE': '../celloracle_data/optuna_hpo_models2', 'LOG_DIR_BASE': '../celloracle_data/optuna_hpo_logs2', 'WAND_B_LOG_DIR_BASE': '../celloracle_data/optuna_hpo_wandb_logs2', 'HPO_FIXED_MAX_STEPS_PER_EPISODE': 30, 'BATCH_SIZE': 128, 'USE_MASKABLE_PPO': False, 'VERBOSE': 0, 'LOG_INTERVAL': 10, 'RESET_NUM_TIMESTEPS': False, 'DEVICE': 'auto', 'USE_PROGRESS_BAR': False, 'STEP_SAVE_FREQ': 1000000000, 'PPO_N_STEPS': 128, 'PPO_N_EPOCHS': 7, 'GAMMA': 0.991421185223121, 'GAE_LAMBDA': 0.95, 'CLIP_RANGE': 0.11742508365045984, 'ENT_COEF': 0.025985284373248055, 'VF_COEF': 0.5, 'MAX_GRAD_NORM': 0.5, 'LEARNING_RATE': 7.106591851092232e-05, 'ALLOW_GENE_ACTIVATION': True, 'STANDARD_SD_FACTOR': 1.5, 'USE_LEARNING_RATE_SCHEDULE': False, 'USE_SIMILARITY_REWARD': True, 'USE_NEW_INPUT': True, 'USE_PREV_KNOCKOUT': True, 'DIVIDER_OF_TOTAL_STEPS_FOR_CURRICULUM_LEARNING': 20, 'TARGET_CELLS_PER_PHASE': 10, 'MAX_STEP_INCREASE_PER_PHASE': 8, 'MAX_STEPS_FIRST_PHASE': 50000, 'PHASE_STEP_INCREASE': 15000, 'MAX_STEPS_PER_EPISODE': 36, 'GENE_ACTIVITY_THRESHOLD': 0.01, 'TARGET_DISTANCE_THRESHOLD': 0.1, 'DISTANCE_GAMMA': 0.959091248360355, 'STEP_PENALTY': -0.06546621021875138, 'GOAL_BONUS': 24.398197043239886, 'FAIL_PENALTY': -4.907369775668889, 'SAME_CELL_PENALTY': -0.9188933979989455, 'DISTANCE_REWARD_SCALE': 40.26819266566601, 'PARAMETER_TUNING': True, 'TOTAL_TIMESTEPS_HPO': 1000000, 'PI_ARCH': [512, 256], 'VF_ARCH': [512, 256], 'ACTIVATION_FN': <class 'torch.nn.modules.activation.ReLU'>, 'MODEL_SAVE_PATH': '../celloracle_data/optuna_hpo_models2/trial_0', 'LOG_DIR': '../celloracle_data/optuna_hpo_logs2/trial_0', 'WANDB_RUN_NAME': 't0_lr7.1e-05_ent0.03', 'optuna_trial_obj': <optuna.trial._trial.Trial object at 0x702f4dd85420>, 'TOTAL_TIMESTEPS': 1000000, '_wandb': {}}
+2025-06-20 21:17:48,492 INFO    MainThread:1272608 [wandb_init.py:init():893] starting backend
+2025-06-20 21:17:48,492 INFO    MainThread:1272608 [wandb_init.py:init():897] sending inform_init request
+2025-06-20 21:17:48,512 INFO    MainThread:1272608 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-06-20 21:17:48,512 INFO    MainThread:1272608 [wandb_init.py:init():907] backend started and connected
+2025-06-20 21:17:48,517 INFO    MainThread:1272608 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-06-20 21:17:48,517 INFO    MainThread:1272608 [wandb_run.py:_label_probe_notebook():1379] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-06-20 21:17:48,519 INFO    MainThread:1272608 [wandb_init.py:init():1002] updated telemetry
+2025-06-20 21:17:48,584 INFO    MainThread:1272608 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-06-20 21:17:49,081 INFO    MainThread:1272608 [wandb_init.py:init():1101] starting run threads in backend
+2025-06-20 21:17:49,949 INFO    MainThread:1272608 [wandb_run.py:_console_start():2566] atexit reg
+2025-06-20 21:17:49,949 INFO    MainThread:1272608 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-06-20 21:17:49,950 INFO    MainThread:1272608 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-06-20 21:17:49,950 INFO    MainThread:1272608 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-06-20 21:17:49,965 INFO    MainThread:1272608 [wandb_init.py:init():1147] run started, returning control to user process
+2025-06-20 21:17:49,971 INFO    MainThread:1272608 [wandb_run.py:_finish():2314] finishing run caspar-christiaan-utrecht-university/celloracle/lfk2fpq0
+2025-06-20 21:17:49,972 INFO    MainThread:1272608 [jupyter.py:save_history():477] not saving jupyter history
+2025-06-20 21:17:49,972 INFO    MainThread:1272608 [jupyter.py:save_ipynb():401] not saving jupyter notebook
+2025-06-20 21:17:49,972 INFO    MainThread:1272608 [wandb_init.py:_jupyter_teardown():628] cleaning up jupyter logic
+2025-06-20 21:17:49,972 INFO    MainThread:1272608 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 1
+2025-06-20 21:17:49,972 INFO    MainThread:1272608 [wandb_run.py:_restore():2513] restore
+2025-06-20 21:17:49,972 INFO    MainThread:1272608 [wandb_run.py:_restore():2519] restore done
+2025-06-20 21:17:51,172 INFO    MainThread:1272608 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-06-20 21:17:51,172 INFO    MainThread:1272608 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-06-20 21:17:51,173 INFO    MainThread:1272608 [wandb_run.py:_footer_sync_info():4121] logging synced files

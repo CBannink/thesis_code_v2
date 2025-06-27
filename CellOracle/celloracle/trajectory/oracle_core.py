@@ -18,6 +18,8 @@ from tqdm.auto import tqdm
 from sklearn.neighbors import KDTree
 from umap import UMAP
 import torch
+from sklearn.preprocessing import MinMaxScaler
+
 import psutil
 import umap
 from sklearn.decomposition import PCA
@@ -877,7 +879,7 @@ class Oracle(modified_VelocytoLoom, Oracle_visualization):
         self._init_cluster_label_to_idx_dict()
         self._normalize_imputed_counts_for_AI_input()
 
-        #init done#
+        #init done#`
         self.init_called = True
 
     def _init_prev_perturbed_list(self, batch_size):
@@ -974,8 +976,14 @@ class Oracle(modified_VelocytoLoom, Oracle_visualization):
             self.umap_neighbors_cp = cp.array(self.adata.obsm[self.embedding_neighbor_name])
 
     def _normalize_imputed_counts_for_AI_input_np(self):
-        self.AI_input = self.adata.layers["imputed_count"].copy()
-        sc.pp.scale(self.AI_input, copy=False)
+        raw_data = self.adata.layers["imputed_count"].copy()
+        #check sparisty
+        if sp.issparse(raw_data):
+            raw_data = raw_data.toarray()
+        #print the min and max of the raw data
+        print(f"Raw data min: {raw_data.min()}, max: {raw_data.max()}")
+        min_max_scaler = MinMaxScaler(feature_range=(-1, 1))
+        self.AI_input = min_max_scaler.fit_transform(raw_data)
 
 
 
